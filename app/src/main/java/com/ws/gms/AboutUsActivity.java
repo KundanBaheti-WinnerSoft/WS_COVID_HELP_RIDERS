@@ -21,6 +21,7 @@ public class AboutUsActivity extends AppCompatActivity {
     RelativeLayout rlRateUs;
     TextView HyperLink;
     Spanned Text;
+    String NewInfo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
