@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WS GMS </string>
+
+    <string name="navigation_drawer_open">ओपन नेव्हिगेशन ड्रॉवर</string>
+
+    <string name="navigation_drawer_close">नेव्हिगेशन ड्रॉवर बंद करा</string>
+
+    <string name="nav_header_title">Winner Software</string>
+    <string name="nav_header_subtitle">winnersoft.co.in</string>
+
+    <string name="nav_header_desc">नॅव्हिगेशन हेडर</string>
+
+    <string name="action_settings">सेटिंग्ज</string>
+
+    <string name="menu_home">होम</string>
+
+    <string name="menu_gallery">गॅलरी</string>
+
+    <string name="menu_slideshow">स्लाइडशो</string>
+
+    <string name="menu_tools">साधने</string>
+
+    <string name="menu_share">शेअर</string>
+
+    <string name="menu_send">पाठवा</string>
+
+    <string name="dashboard">डॅशबोर्ड</string>
+
+    <string name="admin">अॅडमिन</string>
+
+    <string name="volunteers">पधाधिकारी</string>
+    vghh
+    <string name="grievances">तक्रार</string>
+
+    <string name="admins">अॅडमिन</string>
+
+    <string name="addComplaint">तक्रार जोडा</string>
+
+    <string name="myComplaint">माझ्या तक्रारी</string>
+
+    <string name="citizenRegistered">नागरिक नोंदणीकृत</string>
+
+    <string name="grievanceReceived">तक्रार प्राप्त झाली</string>
+
+    <string name="grievanceResolved">तक्रार निवारण</string>
+
+    <string name="checkComplaintStatus">तक्रार स्थिती तपासा</string>
+
+    <string name="rrgisterYourComplaint">तुमची तक्रार नोंदवा</string>
+
+    <string name="socialMedia">सोशल मीडिया</string>
+
+    <string name="feedback">अभिप्राय</string>
+
+    <string name="Username">वापरकर्तानाव</string>
+
+    <string name="password">पासवर्ड</string>
+
+    <string name="login">लॉगिन</string>
+
+    <string name="userName">वापरकर्तानाव</string>
+
+    <string name="grievancesManagement">तक्रार व्यवस्थापन</string>
+
+    <string name="thisFieldCannotBlank">हे फील्ड रिक्त असू शकत नाही</string>
+
+    <string name="logout">बाहेर पडणे</string>
+
+    <string name="logoutQue">बाहेर पडणे ?</string>
+
+    <string name="doYouWantLogout">आपण लॉगआउट करू इच्छिता ?</string>
+
+    <string name="yes">हो</string>
+
+    <string name="no">नाही</string>
+
+    <string name="newComplaint">नवीन तक्रार</string>
+
+    <string name="profile">प्रोफाइल</string>
+
+    <string name="token">टोकन</string>
+
+    <string name="complaintDepartment">तक्रार विभाग</string>
+
+    <string name="complaintType">तक्रार प्रकार</string>
+
+    <string name="date">तारीख</string>
+
+    <string name="totalComplaints">एकूण तक्रारी</string>
+
+    <string name="resolvedComplaints">निवारण तक्रारी</string>
+
+    <string name="openComplaints">उघड तक्रारी</string>
+
+    <string name="inProgressComplaints">प्रगतीपथावर तक्रारी</string>
+
+    <string name="closedComplaints">बंद तक्रारी</string>
+
+    <string name="citizenRegistration">नागरिक नोंदणी</string>
+
+    <string name="middleName">मधले नाव</string>
+
+    <string name="lastName">आडनाव</string>
+
+    <string name="firstName">पहिले नाव</string>
+
+    <string name="cancel">रद्द करा</string>
+
+    <string name="email">ई - मेल आयडी</string>
+
+    <string name="houseNo">घर क्रमांक</string>
+
+    <string name="building">इमारत</string>
+
+    <string name="street">रस्ता</string>
+
+    <string name="area">क्षेत्र</string>
+
+    <string name="city">शहर</string>
+
+    <string name="zip">पिन कोड</string>
+
+    <string name="landline">लँडलाइन</string>
+
+    <string name="register">नोंदणी करा</string>
+
+    <string name="citizen">नागरिक</string>
+
+    <string name="subject">विषय</string>
+
+    <string name="description">वर्णन</string>
+
+    <string name="location">स्थान</string>
+
+    <string name="uploadDocument">कागदजत्र अपलोड करा</string>
+
+    <string name="save">जतन करा</string>
+
+    <string name="addComplaints">तक्रार जोडा</string>
+
+    <string name="name">नाव</string>
+
+    <string name="mobNo">मोबाइल नंबर</string>
+
+    <string name="newRegiQue">नवीन नोंदणी ?</string>
+
+    <string name="registerNewAdmin">नवीन प्रशासन नोंदणी करा</string>
+
+    <string name="loading">लोड करीत आहे...कृपया थांबा</string>
+
+    <string name="noInternetConnection">इंटरनेट कनेक्शन नाही</string>
+
+    <string name="plsConnectToInternet">कृपया इंटरनेटशी कनेक्ट करा</string>
+
+    <string name="ok">ठीक आहे</string>
+
+    <string name="serverError">सर्व्हर त्रुटी कृपया पुन्हा प्रयत्न करा</string>
+
+    <string name="tokenExpire">टोकन संपुष्टात</string>
+
+    <string name="failedTryAgain">पुन्हा प्रयत्न अयशस्वी</string>
+
+    <string name="registeredSuccess">यशस्वीरित्या नोंदणीकृत</string>
+
+    <string name="profileUpdatePleaseLogin">प्रोफाइल अपडेट, कृपया पुन्हा लॉगिन करा</string>
+
+    <string name="enterFirstName">प्रथम नाव प्रविष्ट करा</string>
+
+    <string name="enterMiddleName">मधले नाव प्रविष्ट करा</string>
+
+    <string name="enterLastName">शेवटचे नाव एंटर करा</string>
+
+    <string name="enterRole">भूमिका प्रविष्ट करा</string>
+
+    <string name="enterGender">लिंग प्रविष्ट करा</string>
+
+    <string name="enterCity">शहर प्रविष्ट करा</string>
+
+    <string name="enterPincode">पिनकोड प्रविष्ट करा</string>
+
+    <string name="enterState">राज्य प्रविष्ट करा</string>
+
+    <string name="enterCountry">देश प्रविष्ट करा</string>
+
+    <string name="plsEnterValidBirthdate">वैध जन्मतारीख प्रविष्ट करा</string>
+
+    <string name="plsEnterFirstName">कृपया प्रथम नाव प्रविष्ट करा</string>
+
+    <string name="plsEnterMiddleName">कृपया मधले नाव प्रविष्ट करा</string>
+
+    <string name="plsEnterLastName">कृपया आडनाव प्रविष्ट करा</string>
+
+    <string name="plsEnterMobNo">कृपया मोबाइल नंबर प्रविष्ट करा</string>
+
+    <string name="plsEnterEmail">कृपया ईमेल आयडी प्रविष्ट करा</string>
+
+    <string name="plsEnterBirthdate">कृपया जन्मतारीख प्रविष्ट करा</string>
+
+    <string name="plsEnterAddress">कृपया पत्ता प्रविष्ट करा</string>
+
+    <string name="plsEnterCity">कृपया शहर प्रविष्ट करा</string>
+
+    <string name="plsEnterPincode">कृपया वैध पिनकोड प्रविष्ट करा</string>
+
+    <string name="plsEnterState">कृपया राज्य प्रविष्ट करा</string>
+
+    <string name="plsEnterCountry">कृपया देश प्रविष्ट करा</string>
+
+    <string name="plsEnterstudName">कृपया विद्यार्थी नाव प्रविष्ट करा</string>
+
+    <string name="birthDate">जन्मदिनांक</string>
+
+    <string name="selGender">लिंग निवडा :</string>
+
+    <string name="male">नर</string>
+
+    <string name="female">स्त्री</string>
+
+    <string name="emailId">ई - मेल आयडी</string>
+
+    <string name="pincode">पिन कोड</string>
+
+    <string name="state">राज्य</string>
+
+    <string name="country">देश</string>
+
+    <string name="update">अपडेट</string>
+
+    <string name="enterEmailId">ईमेल आयडी प्रविष्ट करा</string>\
+    <string name="enterMobNo">मोबाइल नंबर प्रविष्ट करा</string>
+    <string name="setCurrentAddress">वर्तमान पत्ता सेट करा</string>
+    <string name="address">पत्ता</string>
+    <string name="plsEnterGender">कृपया लिंग निवडा</string>
+    <string name="validMailid">कृपया वैध ईमेल आयडी प्रविष्ट करा</string>
+    <string name="incorrectUsernamePassword">वापरकर्त्याचे नाव अथवा पासवर्ड चुकीचा</string>
+    <string name="plsEnterCorrectUsernamePassword">कृपया सही वापरकर्तानाव आणि पासवर्ड प्रविष्ट करा</string>
+    <string name="loginSuccessful">लॉगिन यशस्वी</string>
+    <string name="registerNewVolunteer">नवीन पधाधिकारी नोंदणी करा</string>
+    <string name="notFound">सापडले नाही</string>
+    <string name="complaintsNotFound">तक्रारी सापडल्या नाहीत</string>
+    <string name="title">शीर्षक</string>
+    <string name="tokenNo">टोकन क्रमांक</string>
+    <string name="status">स्थिती</string>
+    <string name="changeLanguage">भाषा बदला</string>
+    <string name="changePassword">पासवर्ड बदला</string>
+    <string name="about">बद्दल</string>
+    <string name="sendMail">मेल पाठवा</string>
+    <string name="langChange">भाषा बदलली</string>
+    <string name="enterCurrentPswd">वर्तमान पासवर्ड प्रविष्ट करा</string>
+    <string name="enterNewPswd">नवीन पासवर्ड टाका</string>
+    <string name="enterConfirmNewPswd">पासवर्डची पुष्टी करा</string>
+    <string name="incorrectPassword">चुकीचा पासवर्ड</string>
+    <string name="passwordDoesnMatched">पासवर्ड जुळत नाही</string>
+    <string name="passwordChangedSuccessPlsLogin">संकेतशब्द यशस्वीरित्या बदलला, कृपया पुन्हा लॉगिन करा</string>
+    <string name="passDoesnMatch">चुकीचा पासवर्ड</string>
+    <string name="currentPassNewPassNotMatch">करंट पासवर्ड चुकीचा आहे, कृपया सही पासवर्ड प्रविष्ट करा</string>
+    <string name="rateUsOnPlayStore">Play Store वर रेट करा.</string>
+    <string name="allRightsReserved">WS GMS आणि WS GMS चा लोगो हे Winner Software Pvt.Ltd. चे ​​ट्रेडमार्क आहेत. सर्व हक्क राखीव.</string>
+    <string name="allRights">Copyright "\u00a9" 2019 Winner Software</string>
+    <string name="aboutUsDescription">मनसे राजदरबार तक्रार ट्रॅकिंग आणि व्यवस्थापन.</string>
+    <string name="version">Version 1.0</string>
+    <string name="app_desc">WS GMS विविध सरकारी आणि खाजगी संस्थांनी पुरविलेल्या सेवांसाठी तक्रारींचे निराकरण करण्याच्या हेतूने विकसित करण्यात आले आहे. तसेच, पीडित नागरिकांद्वारे कुठल्याही वेळी आणि कोणत्याही वेळी (24x7) संबंधित विभागांना तक्रारी सादर करण्यास सक्षम करणे, कोण या तक्रारींची जलद आणि अनुकूल निराकरण करण्यासाठी तपासणी करेल आणि कारवाई करेल. तक्रार केलेल्या असाइनरी प्रगतीसह तक्रारींची तक्रार या मोबाइल अॅपवर व्युत्पन्न टोकन नंबरद्वारे देखील केली जाते.</string>
+    <string name="enterArea">क्षेत्र</string>
+    <string name="plsEnterArea">कृपया क्षेत्र प्रविष्ट करा</string>
+    <string name="mobNoAlreadyExist">क्षमस्व... मोबाइल नंबर आधीच अस्तित्वात आहे."\n"कृपया दुसरा मोबाइल नंबर वापरा</string>
+    <string name="plsEnterDesc">कृपया वर्णन प्रविष्ट करा</string>
+    <string name="plsEnterTitle">कृपया शीर्षक प्रविष्ट करा</string>
+    <string name="cantShareMoreImages">आपण 10 पेक्षा जास्त मीडिया आयटम सामायिक करू शकत नाही</string>
+    <string name="selImages">प्रतिमा निवडा</string>
+    <string name="addNewComplaint">नवीन तक्रार जोडा</string>
+    <string name="alreadyColsed">तक्रारी आधीच बंद आहे</string>
+    <string name="statusChanged">स्थिती बदलली</string>
+    <string name="notResolved">निवारण नाही</string>
+    <string name="forgotPassword">पासवर्ड विसरला ?</string>
+    <string name="forgotYouPassword">तुमचा पासवर्ड विसरलात?</string>
+    <string name="forgetpass">कृपया आपल्या खात्यावर नोंदणीकृत ईमेल प्रविष्ट करा.</string>
+    <string name="enterValidMobNo">वैध भ्रमणध्वनी क्रमांक टाका</string>
+    <string name="mobNoNotFound">मोबाइल नंबर सापडला नाही</string>
+    <string name="changePswdSuccess">संकेतशब्द यशस्वीरित्या बदलला</string>
+    <string name="sendtoEmailAddress">ईमेल पत्त्यावर पाठवा</string>
+    <string name="notRegister">नोंदणीकृत नाही</string>
+    <string name="plsRegiFirst">कृपया प्रथम नोंदणी करा</string>
+    <string name="backtoLogin">लॉगिन वर परत</string>
+    <string name="send">पाठवा</string>
+    <string name="emailnotAvailable">ईमेल उपलब्ध नाही</string>
+    <string name="solvedPending">निराकरण / प्रलंबित</string>
+    <string name="complaintsPerYear">प्रति वर्ष तक्रारी</string>
+    <string name="goToSetting">सेटिंग्ज वर जा</string>
+    <string name="requiredPermission">आवश्यक परवानगी</string>
+    <string name="requiredPermissionAllow">कृपया दिल्याप्रमाणे परवानगी आवश्यक आहे</string>
+    <string name="youHaveDeniedPermission">आपण काही परवानगी नाकारली आहे</string>
+    <string name="pleaseAllowPermission">कृपया सेटिंग्ज > परवानगी वर सर्व परवानगीची परवानगी द्या.</string>
+    <string name="allowPermissionFromAppSetting">अॅप सेटिंगवरून परवानगीची परवानगी द्या</string>
+    <string name="makeCall">कॉल करा</string>
+    <string name="closed">बंद</string>
+    <string name="open">उघड</string>
+    <string name="inProgress">प्रगतीपथावर</string>
+    <string name="resolved">निवारण</string>
+    <string name="invalidMobNumber">अवैध मोबाइल नंबर</string>
+    <string name="registerNewUser">नवीन वापरकर्ता नोंदणी करा</string>
+    <string name="users">वापरकर्ते</string>
+    <string name="pleaseAddComment">कृपया टिप्पणी जोडा</string>
+    <string name="addComment">टिप्पणी करा</string>
+    <string name="comment">टिप्पणी</string>
+    <string name="onlyUserCan">फक्त वापरकर्ता तक्रार बंद करू शकतो</string>
+    <string name="ucomment">वापरकर्ता टिप्पणी</string>
+    <string name="vcomment">स्वयंसेवक टिप्पणी</string>
+    <string name="complaintDetails">तक्रार तपशील</string>
+    <string name="adminsNotFound">प्रशासक आढळले नाहीत</string>
+    <string name="volunteersNotFound">पधाधिकारी आढळले नाहीत</string>
+    <string name="usersNotFound">वापरकर्ते आढळले नाहीत</string>
+    <string name="aboutUs">आमच्याबद्दल</string>
+    <string name="complaints">तक्रारी</string>
+    <string name="settings">सेटिंग्ज</string>
+    <string name="search">शोधा </string>
+    <string name="plsEnterSearch">कृपया शोध की प्रविष्ट करा</string>
+    <string name="assign">नियुक्त करा</string>
+    <string name="volunteerNotFoundPleaseMakeRegisteration">पधाधिकारी नोंदणी नाही कृपया नोंदणी करा</string>
+    <string name="selVolunteer">पधाधिकारी निवडा</string>
+    <string name="volunteerAssignSuccess">पधाधिकारी यशस्वीरित्या नियुक्त केले</string>
+    <string name="alreadyAssign">आधीच नियुक्त केले आहे</string>
+    <string name="volunteerAlreadyAssign">पधाधिकारी आधीच नियुक्त केले</string>
+    <string name="complaintassigned">तक्रार नियुक्त</string>
+    <string name="compType">तक्रार प्रकार</string>
+    <string name="plsSelectComplaintType">कृपया तक्रार प्रकार निवडा</string>
+    <string name="changeStatusQue">आपणास स्थिती बदलण्याची खात्री आहे </string>
+    <string name="changeStatus">स्थिती बदला</string>
+    <string name="add">जोडा</string>
+    <string name="verifyComplentdetails">तक्रार तपशील सत्यापित करा</string>
+    <string name="registration">नोंदणी</string>
+    <string name="myProfile">माझे प्रोफाइल</string>
+    <string name="updatedSuccess">यशस्वीरित्या अद्यतनित केले.</string>
+    <string name="remove">काढा</string>
+    <string name="edit">संपादित करा</string>
+
+    <string name="appInfo">An android based application that aims to provide the citizens with a platform to redress their complaints or grievances.
+Citizen can lodge the  grievance online via app from anywhere any time.
+With automated workflow grievance will route through all the stakeholders for immediate redress.</string>
+
+    <string name="tagLine">“WS-GMS द्वारे आपल्या तक्रारी नोंदवा”</string>
+
+    <string name="addImages">प्रतिमा जोडा</string>
+    <string name="gallery">गॅलरी</string>
+    <string name="allImages">सर्व छायाचित्र</string>
+    <string name="uploadImage">छायाचित्र अपलोड करा</string>
+    <string name="addedSuccess">यशस्वीरित्या जोडले</string>
+    <string name="imagesNotAddedYet">छायाचित्र अद्याप जोडली नाहीत</string>
+    <string name="selUser">वापरकर्ता निवडा</string>
+    <string name="browseImage">छायाचित्र ब्राउझ करा</string>
+    <string name="plsBrowseImgForGlry">गॅलरी पासून छायाचित्र ब्राउझ करा</string>
+    <string name="invalidSelection">अवैध निवड</string>
+    <string name="plsSlctVolName">कृपया स्वयंसेवक नाव निवडा</string>
+    <string name="complaintRegisterBy">तक्रार नोंदवली </string>
+    <string name="complaintAssignTo">तक्रार नियुक्त </string>
+    <string name="volunteerName">पधाधिकारी नाव</string>
+    <string name="volunteerNumber">पधाधिकारी संपर्क क्रमांक</string>
+    <string name="volunteerMail">पधाधिकारी मेल आयडी</string>
+    <string name="makeCallto">ला कॉल करा</string>
+    <string name="delete">हटवा</string>
+    <string name="imageDeleted">प्रतिमा हटविली</string>
+    <string name="selCompStatus">तक्रार स्थिती निवडा</string>
+    <string name="pleaSelCompStatus">कृपया तक्रार स्थिती निवडा</string>
+    <string name="complaintStatus">तक्रार स्थिती</string>
+    <string name="compIsResolved">तक्रारीचे आधीच निवारण झाले आहे</string>
+    <string name="compNotResolved">तक्रारीचे निवारण झाले नाही</string>
+    <string name="complaintAddedSuccess">तक्रार यशस्वीरित्या पाठविली</string>
+    <string name="enterOtp">ओटीपी प्रविष्ट करा</string>
+    <string name="UsernameMoNo">वापरकर्ता नाव / मोबाइल नंबर</string>
+    <string name="activeDeactive">सक्रिय / निष्क्रिय</string>
+    <string name="updatedSuccessfully">यशस्वीरित्या बदल केले</string>
+    <string name="deactivited">निष्क्रिय केले</string>
+    <string name="notAllowToAdd">आपण अ‍ॅडमिनद्वारे निष्क्रिय केले आहेत, तक्रार जोडण्यास परवानगी नाही.</string>
+    <string name="notAllowToSee">आपण अ‍ॅडमिनद्वारे निष्क्रिय केले आहेत, तक्रारी पाहू शकत नाही.</string>
+    <string name="plsSelDate">कृपया तारीख निवडा</string>
+    <string name="assignedComplaints">नियुक्त केलेल्या तक्रारी</string>
+    <string name="otpverification">ओटीपी पडताळणी</string>
+    <string name="submit">सबमिट करा</string>
+    <string name="submitotp">ओटीपी सबमिट करा</string>
+    <string name="plsEnterOtp">कृपया ओटीपी प्रविष्ट करा</string>
+    <string name="otpIsInvalid">ओटीपी अवैध आहे</string>
+    <string name="plsEnterCorrectOtp">कृपया योग्य ओटीपी प्रविष्ट करा</string>
+
+
+
+
+
+
+    <string name="allComplaints">सर्व तक्रारी</string>
+    <string name="selCountry">देश निवडा</string>
+    <string name="selDistrict">जिल्हा निवडा</string>
+    <string name="selState">राज्य निवडा</string>
+    <string name="maharashtra">महाराष्ट्र</string>
+    <string name="india">भारत</string>
+    <string name="plsSelectState">कृपया राज्य निवडा</string>
+    <string name="plsSelectDistrict">कृपया जिल्हा निवडा</string>
+    <string name="selfAssign">स्वतःला नियुक्त करा</string>
+    <string name="assignSuccess">यशस्वीरित्या नियुक्त केले</string>
+    <string name="plsEnterValidDate">वैध तारीख निवडा</string>
+    <string name="year">वर्ष</string>
+
+    <string name="abourWinnerSoft">Founded in 2011, Winner Software is a young inspiring company, making great strides in software development by offering innovative solutions using cutting edge technologies."\n\n"➤  Winner Software Pvt. Ltd. recently appraised at “CMMI Level 3 Dev.Ver.1.3 for highest 3rd party standardization certification”."\n\n"➤  Winner Software is an “9001:2015, ISO  27001:2013, ISO/ISE 20000-1:2011 certified company"."\n\n"➤  STQC Security Audit Clearance Certificate.</string>
+    <string name="aboutWinnerSoft">Winner Software बद्दल</string>
+    <string name="winnersoftlink">http://winnersoft.co.in/</string>
+
+    <string name="profileActivated">प्रोफाइल सक्रिय</string>
+    <string name="profileDeactivated">प्रोफाइल निष्क्रिय</string>
+
+    <string name="regSuccess">नोंदणी यशस्वी ..."\n"आपला पासवर्ड आपल्या नोंदणीकृत ईमेल पत्त्यावर पाठविला गेला आहे.</string>
+
+
+    <string name="updateNow">अपडेट करा</string>
+    <string name="whatsnew">What\'s New :</string>
+    <string name="newUpdateMessage">1.Bug fixes and performance enhancement,"\n\n"2.Supports Marathi Language,"\n\n"3.UI Changes,"\n\n"4.Search improvements.</string>
+
+    <string name="mobNotExist">क्षमस्व ...! प्रविष्ट केलेला मोबाइल नंबर विद्यमान नाही. "\n"कृपया नोंदणीकृत मोबाइल नंबर प्रविष्ट करा.</string>
+    <string name="passSendSuccess">आपला संकेतशब्द आपल्या नोंदणीकृत ईमेल पत्त्यावर पाठविला गेला आहे.</string>
+    <string name="yearlyComplaintCount">वार्षिक तक्रार मोजणी</string>
+
+    <string name="userRegSuccess">नोंदणी यशस्वी ...</string>
+
+
+    <string name="deactivated">निष्क्रिय केले</string>
+    <string name="deactivateduser">आपले पॅकेज कालबाह्य झाले आहे. कृपया नंतर प्रयत्न करा .....</string>
+    <string name="enterValidMailId">वैध मेल आयडी प्रविष्ट करा</string>
+    <string name="enterMailid">आपला मेल आयडी प्रविष्ट करा</string>
+    <string name="usernameNotExist">वापरकर्तानाव विद्यमान नाही</string>
+    <string name="failedToUpdatePassword">संकेतशब्द अद्यतनित करण्यात अयशस्वी</string>
+    <string name="stringValidation"> . abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZक	का	कि	की	कु	कू	के	कै	को	कौ	कं	कः
+    ख	खा	खि	खी	खु	खू	खे	खै	खो	खौ	खं	खः
+    ग	गा	गि	गी	गु	गू	गे	गै	गो	गौ	गं	गः
+    घ	घा	घि	घी	घु	घू	घे	घै	घो	घौ	घं	घः
+    च	चा	चि	ची	चु	चू	चे	चै	चो	चौ	चं	चः
+    छ	छा	छि	छी	छु	छू	छे	छै	छो	छौ	छं	छः
+    ज	जा	जि	जी	जु	जू	जे	जै	जो	जौ	जं	जः
+    झ	झा	झि	झी	झु	झू	झे	झै	झो	झौ	झं	झः
+    ट	टा	टि	टी	टु	टू	टे	टै	टो	टौ	टं	टः
+    ठ	ठा	ठि	ठी	ठु	ठू	ठे	ठै	ठो	ठौ	ठं	ठः
+    ड	डा	डि	डी	डु	डू	डे	डै	डो	डौ	डं	डः
+    ढ	ढा	ढि	ढी	ढु	ढू	ढे	ढै	ढो	ढौ	ढं	ढः
+    ण	णा	णि	णी	णु	णू	णे	णै	णो	णौ	णं	णः
+    त	ता	ति	ती	तु	तू	ते	तै	तो	तौ	तं	तः
+    थ	था	थि	थी	थु	थू	थे	थै	थो	थौ	थं	थः
+    द	दा	दि	दी	दु	दू	दे	दै	दो	दौ	दं	दः
+    ध	धा	धि	धी	धु	धू	धे	धै	धो	धौ	धं	धः
+    न	ना	नि	नी	नु	नू	ने	नै	नो	नौ	नं	नः
+    प	पा	पि	पी	पु	पू	पे	पै	पो	पौ	पं	पः
+    फ	फा	फि	फी	फु	फू	फे	फै	फो	फौ	फं	फः
+    ब	बा	बि	बी	बु	बू	बे	बै	बो	बौ	बं	बः
+    भ	भा	भि	भी	भु	भू	भे	भै	भो	भौ	भं	भः
+    म	मा	मि	मी	मु	मू	मे	मै	मो	मौ	मं	मः
+    य	या	यि	यी	यु	यू	ये	यै	यो	यौ	यं	यः
+    र	रा	रि	री	रु	रू	रे	रै	रो	रौ	रं	रः
+    ल	ला	लि	ली	लु	लू	ले	लै	लो	लौ	लं	लः
+    ळ	ळा	ळि	ळी	ळु	ळू	ळे	ळै	ळो	ळौ	ळं	ळः
+    व	वा	वि	वी	वु	वू	वे	वै	वो	वौ	वं	वः
+    श	शा	शि	शी	शु	शू	शे	शै	शो	शौ	शं	शः
+    ष	षा	षि	षी	षु	षू	षे	षै	षो	षौ	षं	षः
+    स	सा	सि	सी	सु	सू	से	सै	सो	सौ	सं	सः
+    ह	हा	हि	ही	हु	हू	हे	है	हो	हौ	हं	हः
+    क्ष	क्षा	क्षि	क्षी	क्षु	क्षू	क्षे	क्षै	क्षो	क्षौ	क्षं	क्षः
+    त्र	त्रा	त्रि	त्री	त्रु	त्रू	त्रे	त्रै	त्रो	त्रौ	त्रं	त्रः
+    ज्ञ	ज्ञा	ज्ञि	ज्ञी	ज्ञु	ज्ञू	ज्ञे	ज्ञै	ज्ञो	ज्ञौ	ज्ञं	ज्ञः
+    श्र	श्रा	श्रि	श्री	श्रु	श्रू	श्रे	श्रै	श्रो	श्रौ	श्रं	श्रःअ	आ	इ	ई	उ	ऊ	ए	ऐ	ओ	औ	अं	अः
+    -	ा	ि	ी	ु	ू	े	ै	ो	ौ	ं	ः</string>
+
+    <string name="areaValidation">/_-0123456789 . abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZक	का	कि	की	कु	कू	के	कै	को	कौ	कं	कः
+    ख	खा	खि	खी	खु	खू	खे	खै	खो	खौ	खं	खः
+    ग	गा	गि	गी	गु	गू	गे	गै	गो	गौ	गं	गः
+    घ	घा	घि	घी	घु	घू	घे	घै	घो	घौ	घं	घः
+    च	चा	चि	ची	चु	चू	चे	चै	चो	चौ	चं	चः
+    छ	छा	छि	छी	छु	छू	छे	छै	छो	छौ	छं	छः
+    ज	जा	जि	जी	जु	जू	जे	जै	जो	जौ	जं	जः
+    झ	झा	झि	झी	झु	झू	झे	झै	झो	झौ	झं	झः
+    ट	टा	टि	टी	टु	टू	टे	टै	टो	टौ	टं	टः
+    ठ	ठा	ठि	ठी	ठु	ठू	ठे	ठै	ठो	ठौ	ठं	ठः
+    ड	डा	डि	डी	डु	डू	डे	डै	डो	डौ	डं	डः
+    ढ	ढा	ढि	ढी	ढु	ढू	ढे	ढै	ढो	ढौ	ढं	ढः
+    ण	णा	णि	णी	णु	णू	णे	णै	णो	णौ	णं	णः
+    त	ता	ति	ती	तु	तू	ते	तै	तो	तौ	तं	तः
+    थ	था	थि	थी	थु	थू	थे	थै	थो	थौ	थं	थः
+    द	दा	दि	दी	दु	दू	दे	दै	दो	दौ	दं	दः
+    ध	धा	धि	धी	धु	धू	धे	धै	धो	धौ	धं	धः
+    न	ना	नि	नी	नु	नू	ने	नै	नो	नौ	नं	नः
+    प	पा	पि	पी	पु	पू	पे	पै	पो	पौ	पं	पः
+    फ	फा	फि	फी	फु	फू	फे	फै	फो	फौ	फं	फः
+    ब	बा	बि	बी	बु	बू	बे	बै	बो	बौ	बं	बः
+    भ	भा	भि	भी	भु	भू	भे	भै	भो	भौ	भं	भः
+    म	मा	मि	मी	मु	मू	मे	मै	मो	मौ	मं	मः
+    य	या	यि	यी	यु	यू	ये	यै	यो	यौ	यं	यः
+    र	रा	रि	री	रु	रू	रे	रै	रो	रौ	रं	रः
+    ल	ला	लि	ली	लु	लू	ले	लै	लो	लौ	लं	लः
+    ळ	ळा	ळि	ळी	ळु	ळू	ळे	ळै	ळो	ळौ	ळं	ळः
+    व	वा	वि	वी	वु	वू	वे	वै	वो	वौ	वं	वः
+    श	शा	शि	शी	शु	शू	शे	शै	शो	शौ	शं	शः
+    ष	षा	षि	षी	षु	षू	षे	षै	षो	षौ	षं	षः
+    स	सा	सि	सी	सु	सू	से	सै	सो	सौ	सं	सः
+    ह	हा	हि	ही	हु	हू	हे	है	हो	हौ	हं	हः
+    क्ष	क्षा	क्षि	क्षी	क्षु	क्षू	क्षे	क्षै	क्षो	क्षौ	क्षं	क्षः
+    त्र	त्रा	त्रि	त्री	त्रु	त्रू	त्रे	त्रै	त्रो	त्रौ	त्रं	त्रः
+    ज्ञ	ज्ञा	ज्ञि	ज्ञी	ज्ञु	ज्ञू	ज्ञे	ज्ञै	ज्ञो	ज्ञौ	ज्ञं	ज्ञः
+    श्र	श्रा	श्रि	श्री	श्रु	श्रू	श्रे	श्रै	श्रो	श्रौ	श्रं	श्रःअ	आ	इ	ई	उ	ऊ	ए	ऐ	ओ	औ	अं	अः
+    -	ा	ि	ी	ु	ू	े	ै	ो	ौ	ं	ः</string>
+    <string name="emailIdAlreadyExist">क्षमस्व... ईमेल आयडी आधीच अस्तित्वात आहे."\n"कृपया दुसरा ईमेल आयडी वापरा</string>
+
+</resources>

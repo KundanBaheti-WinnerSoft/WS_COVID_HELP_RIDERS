@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".RegistrationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/layout_margin_10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/all_registration_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edt_fname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="@string/stringValidation"
+                        android:gravity="top|left"
+                        android:hint="@string/enterFirstName"
+                        android:inputType="textMultiLine"
+                        android:maxLength="30"
+                        android:maxLines="3"
+                        android:minLines="1"
+                        android:textAppearance="?android:attr/textAppearanceSmall"></EditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edt_mname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="@string/stringValidation"
+                        android:gravity="top|left"
+                        android:hint="@string/enterMiddleName"
+                        android:inputType="textMultiLine"
+                        android:maxLength="30"
+                        android:maxLines="3"
+                        android:minLines="1"
+                        android:textAppearance="?android:attr/textAppearanceSmall"></EditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edt_lname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="@string/stringValidation"
+                        android:gravity="top|left"
+                        android:hint="@string/enterLastName"
+                        android:inputType="textMultiLine"
+                        android:maxLength="30"
+                        android:maxLines="3"
+                        android:minLines="1"
+                        android:textAppearance="?android:attr/textAppearanceSmall"></EditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/margin_3dp"
+                    android:layout_marginTop="@dimen/margin_5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/gender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:text="@string/selGender"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/text_color" />
+
+                    <RadioGroup
+                        android:id="@+id/radio_group"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:textColorHint="@color/black">
+
+                        <RadioButton
+                            android:id="@+id/rb_male"
+                            style="@style/MyRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:text="@string/male"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/text_color" />
+
+                        <RadioButton
+                            android:id="@+id/rb_female"
+                            style="@style/MyRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:text="@string/female"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="@color/text_color" />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edt_mob"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="top|left"
+                        android:hint="@string/enterMobNo"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        android:textAppearance="?android:attr/textAppearanceSmall"></EditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edt_emailid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/enterEmailId"
+                        android:inputType="textEmailAddress"
+                        android:maxLength="50"
+                        android:textAppearance="?android:attr/textAppearanceSmall"></EditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/new_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/enterNewPswd"
+                        android:inputType="textPassword"
+                        android:maxLength="20"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/confirm_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/enterConfirmNewPswd"
+                        android:inputType="textPassword"
+                        android:maxLength="20"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/text_color">
+
+                    <EditText
+                        android:id="@+id/edt_birthdate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:gravity="top"
+                        android:hint="@string/birthDate"
+                        android:inputType="date"
+                        android:maxLength="20"
+                        android:maxLines="3"
+                        android:minLines="1"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:visibility="visible" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/text_color">
+
+                    <EditText
+                        android:id="@+id/edt_country"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:gravity="top"
+                        android:hint="@string/country"
+                        android:maxLength="20"
+                        android:maxLines="3"
+                        android:minLines="1"
+                        android:text="@string/india"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:visibility="visible" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <fr.ganfra.materialspinner.MaterialSpinner
+                    android:id="@+id/spn_state"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    app:ms_arrowColor="@color/text_color"
+                    app:ms_baseColor="@color/text_color"
+                    app:ms_errorColor="@color/red"
+                    app:ms_floatingLabelColor="@color/text_color"
+                    app:ms_floatingLabelText="@string/selState"
+                    app:ms_highlightColor="@color/text_color"
+                    app:ms_hint="@string/selState"
+                    app:ms_multiline="false" />
+
+                <fr.ganfra.materialspinner.MaterialSpinner
+                    android:id="@+id/spn_district"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    app:ms_arrowColor="@color/text_color"
+                    app:ms_baseColor="@color/text_color"
+                    app:ms_errorColor="@color/red"
+                    app:ms_floatingLabelColor="@color/text_color"
+                    app:ms_floatingLabelText="@string/selDistrict"
+                    app:ms_highlightColor="@color/text_color"
+                    app:ms_hint="@string/selDistrict"
+                    app:ms_multiline="false" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edt_city"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="@string/stringValidation"
+                        android:gravity="top|left"
+                        android:hint="@string/enterCity"
+                        android:inputType="textMultiLine"
+                        android:maxLength="50"
+                        android:maxLines="3"
+                        android:minLines="1"
+                        android:textAppearance="?android:attr/textAppearanceSmall"></EditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/address" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/address_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edt_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border"
+                        android:gravity="top|left"
+                        android:inputType="text|textMultiLine|textCapSentences|textAutoCorrect"
+                        android:maxLength="200"
+                        android:maxLines="10"
+                        android:minLines="5"
+                        android:padding="@dimen/margin_5dp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"></EditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edt_area"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="@string/areaValidation"
+                        android:gravity="top|left"
+                        android:hint="@string/enterArea"
+                        android:inputType="textMultiLine"
+                        android:maxLength="50"
+                        android:maxLines="3"
+                        android:minLines="1"
+                        android:textAppearance="?android:attr/textAppearanceSmall"></EditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edt_pincode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="top|left"
+                        android:hint="@string/enterPincode"
+                        android:inputType="number"
+                        android:maxLength="6"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        android:textAppearance="?android:attr/textAppearanceSmall"></EditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cancel_save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/layout_margin_20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_cancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/cancel"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:theme="@style/AppTheme.Button" />
+
+                <Button
+                    android:id="@+id/btn_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/register"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:theme="@style/AppTheme.Button" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

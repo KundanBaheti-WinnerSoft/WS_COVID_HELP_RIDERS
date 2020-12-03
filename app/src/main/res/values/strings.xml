@@ -1,0 +1,396 @@
+<resources>
+    <string name="app_name">WS GMS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Winner Software</string>
+    <string name="nav_header_subtitle">winnersoft.co.in</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="admin">Admin</string>
+    <string name="volunteers">Volunteers</string>
+    <string name="users">Users</string>
+    <string name="grievances">Grievances</string>
+    <string name="admins">Admins</string>
+    <string name="addComplaint">Add Grievance</string>
+    <string name="myComplaint">My Grievances</string>
+    <string name="citizenRegistered">Citizen Registered</string>
+    <string name="grievanceReceived">Grievances Received</string>
+    <string name="grievanceResolved">Grievances Resolved</string>
+    <string name="checkComplaintStatus">Check Grievance Status</string>
+    <string name="rrgisterYourComplaint">Register Your Grievance</string>
+    <string name="socialMedia">Social Media</string>
+    <string name="feedback">Feedback</string>
+    <string name="Username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="userName">Username</string>
+    <string name="grievancesManagement">Grievances Management</string>
+    <string name="thisFieldCannotBlank">This field cannot be blank</string>
+    <string name="logout">Logout</string>
+    <string name="logoutQue">Logout ?</string>
+    <string name="doYouWantLogout">Do you want to logout ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="newComplaint">New Grievance</string>
+    <string name="profile">Profile</string>
+    <string name="token">Token</string>
+    <string name="complaintDepartment">Grievance Department</string>
+    <string name="complaintType">Grievance Type</string>
+    <string name="date">Date</string>
+    <string name="totalComplaints">Total Grievances</string>
+    <string name="openComplaints">Open</string>
+    <string name="inProgressComplaints">In Progress</string>
+    <string name="resolvedComplaints">Resolved</string>
+    <string name="closedComplaints">Closed</string>
+    <string name="citizenRegistration">Citizen Registration</string>
+    <string name="middleName">Middle Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="firstName">First Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="email">Email Id</string>
+    <string name="houseNo">House No</string>
+    <string name="building">Building</string>
+    <string name="street">Street</string>
+    <string name="area">Area</string>
+    <string name="city">City</string>
+    <string name="zip">Zip</string>
+    <string name="landline">Landline</string>
+    <string name="register">Register</string>
+    <string name="citizen">Citizen</string>
+    <string name="subject">Subject</string>
+    <string name="description">Description</string>
+    <string name="location">Location</string>
+    <string name="uploadDocument">Upload Document</string>
+    <string name="save">Save</string>
+    <string name="addComplaints">Add Grievance</string>
+    <string name="name">Name</string>
+    <string name="mobNo">Mobile Number</string>
+    <string name="newRegiQue">New Registration ?</string>
+    <string name="registerNewAdmin">Register New Admin</string>
+    <string name="loading">Loading...Please Wait</string>
+    <string name="noInternetConnection">No Internet Connection</string>
+    <string name="plsConnectToInternet">Please Connect To Internet</string>
+    <string name="ok">Ok</string>
+    <string name="serverError">Server Error Please try again</string>
+    <string name="tokenExpire">Token Expire</string>
+    <string name="failedTryAgain">Failed try again.</string>
+    <string name="registeredSuccess">Registered Successfully</string>
+    <string name="profileUpdatePleaseLogin">Profile Update, Please login again</string>
+    <string name="enterFirstName">Enter first name</string>
+    <string name="enterMiddleName">Enter middle name</string>
+    <string name="enterLastName">Enter last name</string>
+    <string name="enterRole">Enter role</string>
+    <string name="enterGender">Enter gender</string>
+    <string name="enterCity">Enter city</string>
+    <string name="enterPincode">Enter pincode</string>
+    <string name="enterState">Enter state</string>
+    <string name="enterCountry">Enter country</string>
+    <string name="plsEnterValidBirthdate">Enter valid birth date</string>
+    <string name="plsEnterFirstName">Please enter first name</string>
+    <string name="plsEnterMiddleName">Please enter middle name</string>
+    <string name="plsEnterLastName">Please enter last name</string>
+    <string name="plsEnterMobNo">Please enter mobile number</string>
+    <string name="plsEnterEmail">Please enter email id</string>
+    <string name="plsEnterBirthdate">Please enter birth date</string>
+    <string name="plsEnterAddress">Please enter address</string>
+    <string name="plsEnterCity">Please enter city</string>
+    <string name="plsEnterPincode">Please enter valid pincode</string>
+    <string name="plsEnterState">Please enter state</string>
+    <string name="plsEnterCountry">Please enter country</string>
+    <string name="plsEnterstudName">Please enter student name</string>
+    <string name="birthDate">Birth date</string>
+    <string name="selGender">Select Gender :</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="emailId">Email Id</string>
+    <string name="pincode">Pincode</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="update">Update</string>
+    <string name="enterEmailId">Enter Email Id</string>
+    <string name="enterMobNo">Enter Mobile Number</string>
+    <string name="setCurrentAddress">Set Current Address</string>
+    <string name="address">Address</string>
+    <string name="plsEnterGender">Please Select Gender</string>
+    <string name="validMailid">Please Enter Valid Email ID</string>
+    <string name="incorrectUsernamePassword">Incorrect Username or Password</string>
+    <string name="plsEnterCorrectUsernamePassword">Please enter correct Username And Password</string>
+    <string name="loginSuccessful">Login success</string>
+    <string name="registerNewVolunteer">Register new Volunteer</string>
+    <string name="registerNewUser">Register new User</string>
+    <string name="notFound">Not Found</string>
+    <string name="complaintsNotFound">Grievances Not Found</string>
+    <string name="title">Title</string>
+
+    <string name="tokenNo">Token No.</string>
+    <string name="status">Status</string>
+    <string name="changeLanguage">Change Language</string>
+    <string name="changePassword">Change Password</string>
+    <string name="about">About</string>
+    <string name="sendMail">Send Mail</string>
+    <string name="langChange">Language Changed</string>
+    <string name="enterCurrentPswd">Enter Current Password</string>
+    <string name="enterNewPswd">Enter New Password</string>
+    <string name="enterConfirmNewPswd">Confirm Password</string>
+    <string name="incorrectPassword">Incorrect Password</string>
+    <string name="passwordDoesnMatched">Password not match</string>
+
+    <string name="passwordChangedSuccessPlsLogin">Password changed successfully, Please login again</string>
+    <string name="passDoesnMatch">Incorrect Password</string>
+    <string name="currentPassNewPassNotMatch">Current password is incorrect, Please enter correct password</string>
+    <string name="rateUsOnPlayStore">Rate us on Play Store.</string>
+    <string name="allRightsReserved">WS GMS and the WS GMS Logos are trademark of Winner Software Pvt.Ltd. All rights reserved.</string>
+    <string name="allRights">Copyright "\u00a9" 2019 Winner Software</string>
+
+    <string name="aboutUsDescription">WS GMS for the Grievances tracking and management.</string>
+    <string name="version">Version 1.0</string>
+    <string name="app_desc">WS GMS is developed with an aim to redress grievances for the services provided by different government and private organisations.
+
+    Also, aiming to enable submission of grievances by the aggrieved citizens from anywhere and anytime (24x7) to concerned departments,
+    who will scrutinize and take action for speedy and favorable redress of these grievances.
+
+    Tracking grievances with grievance assignee progress is also facilitated on this mobile app through the system generated token number.</string>
+    <string name="enterArea">Area</string>
+    <string name="plsEnterArea">Please Enter Area</string>
+    <string name="mobNoAlreadyExist">Sorry...! Entered Mobile Number Is Already Exist."\n"Please use another mobile number.</string>
+    <string name="plsEnterDesc">Please Enter Description</string>
+    <string name="plsEnterTitle">Please Enter Title</string>
+    <string name="cantShareMoreImages">You can\'t share more than 10 media items</string>
+    <string name="selImages">Select Image</string>
+    <string name="addNewComplaint">Add New Grievance</string>
+    <string name="alreadyColsed">Grievance Already Closed</string>
+    <string name="statusChanged">Status Changed</string>
+    <string name="notResolved">Not Resolved</string>
+    <string name="forgotPassword">Forgot Password ?</string>
+    <string name="forgotYouPassword">Forgot your password?</string>
+    <string name="forgetpass">Please enter the registered Email on your account.</string>
+    <string name="enterValidMobNo">Enter Valid Mobile Number</string>
+    <string name="mobNoNotFound">Mobile number not found</string>
+    <string name="changePswdSuccess">Password Changed Successfully</string>
+    <string name="sendtoEmailAddress">Send to email address</string>
+    <string name="notRegister">Not Registered</string>
+    <string name="plsRegiFirst">Please register first</string>
+    <string name="backtoLogin">Back to login</string>
+    <string name="send">Send</string>
+    <string name="emailnotAvailable">Email is not Available</string>
+    <string name="solvedPending">Solved / Pending</string>
+    <string name="complaintsPerYear">Grievances Per Year</string>
+
+    <string name="goToSetting">Go To Settings</string>
+    <string name="requiredPermission">Required Permission</string>
+    <string name="requiredPermissionAllow">SMS required given permission please allow.</string>
+    <string name="youHaveDeniedPermission">You have denied some permission</string>
+    <string name="pleaseAllowPermission">Please allow all permission at settings > permissions.</string>
+    <string name="allowPermissionFromAppSetting">Allow permission from app setting</string>
+    <string name="makeCall">Make Call</string>
+
+    <string name="closed">Closed</string>
+    <string name="open">Open</string>
+    <string name="inProgress">In Progress</string>
+    <string name="resolved">Resolved</string>
+    <string name="invalidMobNumber">Invalid Mobile Number</string>
+    <string name="pleaseAddComment">Please Add Comment</string>
+    <string name="addComment">Add Comment</string>
+    <string name="comment">Comment</string>
+    <string name="onlyUserCan">Only User can close the grievance</string>
+    <string name="ucomment">User Comment</string>
+    <string name="vcomment">Volunteer Comment</string>
+    <string name="complaintDetails">Grievance Details</string>
+
+    <string name="adminsNotFound">Admins Not Found</string>
+    <string name="volunteersNotFound">Volunteers Not Found</string>
+    <string name="usersNotFound">Users Not Found</string>
+    <string name="aboutUs">About Us</string>
+    <string name="complaints">Grievances</string>
+    <string name="settings">Settings</string>
+    <string name="search">Search</string>
+    <string name="plsEnterSearch">Please Enter Search Key</string>
+
+    <string name="assign">Assign</string>
+    <string name="volunteerNotFoundPleaseMakeRegisteration">Volunteer not found please make registration</string>
+    <string name="selVolunteer">Select volunteer</string>
+    <string name="volunteerAssignSuccess">Volunteer assigned successfully</string>
+    <string name="alreadyAssign">Already assigned</string>
+    <string name="volunteerAlreadyAssign">Volunteer already assigned</string>
+    <string name="complaintassigned">Grievance Assigned</string>
+    <string name="compType">Grievance Type</string>
+    <string name="plsSelectComplaintType">Please select Grievance Type</string>
+    <string name="changeStatusQue">Are you sure to change status as </string>
+    <string name="changeStatus">Change Status</string>
+    <string name="add">Add</string>
+    <string name="verifyComplentdetails">Verify Grievance Details</string>
+    <string name="registration">Registration</string>
+    <string name="myProfile">My Profile</string>
+    <string name="updatedSuccess">Updated Successfully.</string>
+    <string name="remove">Remove</string>
+    <string name="edit">Edit</string>
+    <string name="appInfo">An android based application that aims to provide the citizens with a platform to redress their grievances or grievances.
+Citizen can lodge the  grievance online via app from anywhere any time.
+With automated workflow grievance will route through all the stakeholders for immediate redress.</string>
+
+    <string name="tagLine">“Raise your grievances via WS-GMS”</string>
+
+    <string name="addImages">Add Images</string>
+    <string name="gallery">Gallery</string>
+    <string name="allImages">All Images</string>
+    <string name="uploadImage">Upload Image</string>
+    <string name="addedSuccess">Added Successfully</string>
+    <string name="imagesNotAddedYet">Images not added yet</string>
+    <string name="selUser">Select User</string>
+    <string name="browseImage">Browse Image</string>
+    <string name="plsBrowseImgForGlry">Please browse image from gallery</string>
+    <string name="invalidSelection">Invalid Selection</string>
+    <string name="plsSlctVolName">Please Select Volunteer Name</string>
+    <string name="complaintRegisterBy">Grievance Registered By </string>
+    <string name="complaintAssignTo">Grievance Assigned To </string>
+    <string name="volunteerName">Volunteer Name</string>
+    <string name="volunteerNumber">Volunteer Contact No</string>
+    <string name="volunteerMail">Volunteer Mail Id</string>
+    <string name="makeCallto">Make Call</string>
+    <string name="delete">Delete</string>
+    <string name="imageDeleted">Image Deleted</string>
+    <string name="selCompStatus">Select Grievance Status</string>
+    <string name="pleaSelCompStatus">Please select Grievance status</string>
+    <string name="complaintStatus">Grievance Status</string>
+    <string name="compIsResolved">Grievance Already Resolved</string>
+    <string name="compNotResolved">Grievance Not Resolved</string>
+    <string name="complaintAddedSuccess">Grievance Send Successfully</string>
+    <string name="enterOtp">Enter OTP</string>
+    <string name="UsernameMoNo">User Name / Mobile Number</string>
+    <string name="activeDeactive">Active / Deactive</string>
+    <string name="updatedSuccessfully">Updated Successfully</string>
+    <string name="deactivited">Deactivated</string>
+    <string name="notAllowToAdd">You are deactivated by Admin, Not Allow to add grievance.</string>
+    <string name="notAllowToSee">You are deactivated by Admin, Not Allow to see grievance.</string>
+    <string name="plsSelDate">Please Select Date</string>
+    <string name="assignedComplaints">Assigned Grievances</string>
+    <string name="otpverification">OTP Verification</string>
+    <string name="submit">Submit</string>
+    <string name="submitotp">Submit OTP</string>
+    <string name="plsEnterOtp">Please Enter OTP</string>
+    <string name="otpIsInvalid">OTP is Invalid</string>
+    <string name="plsEnterCorrectOtp">Please Enter Correct OTP</string>
+
+    <string name="allComplaints">All Grievances</string>
+    <string name="selCountry">Select Country</string>
+    <string name="selDistrict">Select District</string>
+    <string name="selState">Select State</string>
+    <string name="maharashtra">Maharashtra</string>
+    <string name="india">India</string>
+    <string name="plsSelectState">Please select state</string>
+    <string name="plsSelectDistrict">Please select district</string>
+    <string name="selfAssign">Self Assigned</string>
+    <string name="assignSuccess">Assign Successfully</string>
+    <string name="plsEnterValidDate">Select Valid date</string>
+    <string name="year">Year</string>
+
+    <string name="abourWinnerSoft">Founded in 2011, Winner Software is a young inspiring company, making great strides in software development by offering innovative solutions using cutting edge technologies."\n\n"➤  Winner Software Pvt. Ltd. recently appraised at “CMMI Level 3 Dev.Ver.1.3 for highest 3rd party standardization certification”."\n\n"➤  Winner Software is an “9001:2015, ISO  27001:2013, ISO/ISE 20000-1:2011 certified company"."\n\n"➤  STQC Security Audit Clearance Certificate.</string>
+    <string name="aboutWinnerSoft">About Winner Software</string>
+    <string name="winnersoftlink">http://winnersoft.co.in/</string>
+    <string name="profileActivated">Profile Activated</string>
+    <string name="profileDeactivated">Profile Deactivated</string>
+
+    <string name="stringValidation"> . abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZक	का	कि	की	कु	कू	के	कै	को	कौ	कं	कः
+    ख	खा	खि	खी	खु	खू	खे	खै	खो	खौ	खं	खः
+    ग	गा	गि	गी	गु	गू	गे	गै	गो	गौ	गं	गः
+    घ	घा	घि	घी	घु	घू	घे	घै	घो	घौ	घं	घः
+    च	चा	चि	ची	चु	चू	चे	चै	चो	चौ	चं	चः
+    छ	छा	छि	छी	छु	छू	छे	छै	छो	छौ	छं	छः
+    ज	जा	जि	जी	जु	जू	जे	जै	जो	जौ	जं	जः
+    झ	झा	झि	झी	झु	झू	झे	झै	झो	झौ	झं	झः
+    ट	टा	टि	टी	टु	टू	टे	टै	टो	टौ	टं	टः
+    ठ	ठा	ठि	ठी	ठु	ठू	ठे	ठै	ठो	ठौ	ठं	ठः
+    ड	डा	डि	डी	डु	डू	डे	डै	डो	डौ	डं	डः
+    ढ	ढा	ढि	ढी	ढु	ढू	ढे	ढै	ढो	ढौ	ढं	ढः
+    ण	णा	णि	णी	णु	णू	णे	णै	णो	णौ	णं	णः
+    त	ता	ति	ती	तु	तू	ते	तै	तो	तौ	तं	तः
+    थ	था	थि	थी	थु	थू	थे	थै	थो	थौ	थं	थः
+    द	दा	दि	दी	दु	दू	दे	दै	दो	दौ	दं	दः
+    ध	धा	धि	धी	धु	धू	धे	धै	धो	धौ	धं	धः
+    न	ना	नि	नी	नु	नू	ने	नै	नो	नौ	नं	नः
+    प	पा	पि	पी	पु	पू	पे	पै	पो	पौ	पं	पः
+    फ	फा	फि	फी	फु	फू	फे	फै	फो	फौ	फं	फः
+    ब	बा	बि	बी	बु	बू	बे	बै	बो	बौ	बं	बः
+    भ	भा	भि	भी	भु	भू	भे	भै	भो	भौ	भं	भः
+    म	मा	मि	मी	मु	मू	मे	मै	मो	मौ	मं	मः
+    य	या	यि	यी	यु	यू	ये	यै	यो	यौ	यं	यः
+    र	रा	रि	री	रु	रू	रे	रै	रो	रौ	रं	रः
+    ल	ला	लि	ली	लु	लू	ले	लै	लो	लौ	लं	लः
+    ळ	ळा	ळि	ळी	ळु	ळू	ळे	ळै	ळो	ळौ	ळं	ळः
+    व	वा	वि	वी	वु	वू	वे	वै	वो	वौ	वं	वः
+    श	शा	शि	शी	शु	शू	शे	शै	शो	शौ	शं	शः
+    ष	षा	षि	षी	षु	षू	षे	षै	षो	षौ	षं	षः
+    स	सा	सि	सी	सु	सू	से	सै	सो	सौ	सं	सः
+    ह	हा	हि	ही	हु	हू	हे	है	हो	हौ	हं	हः
+    क्ष	क्षा	क्षि	क्षी	क्षु	क्षू	क्षे	क्षै	क्षो	क्षौ	क्षं	क्षः
+    त्र	त्रा	त्रि	त्री	त्रु	त्रू	त्रे	त्रै	त्रो	त्रौ	त्रं	त्रः
+    ज्ञ	ज्ञा	ज्ञि	ज्ञी	ज्ञु	ज्ञू	ज्ञे	ज्ञै	ज्ञो	ज्ञौ	ज्ञं	ज्ञः
+    श्र	श्रा	श्रि	श्री	श्रु	श्रू	श्रे	श्रै	श्रो	श्रौ	श्रं	श्रःअ	आ	इ	ई	उ	ऊ	ए	ऐ	ओ	औ	अं	अः
+    -	ा	ि	ी	ु	ू	े	ै	ो	ौ	ं	ः</string>
+
+    <string name="areaValidation">/_-0123456789 . abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZक	का	कि	की	कु	कू	के	कै	को	कौ	कं	कः
+    ख	खा	खि	खी	खु	खू	खे	खै	खो	खौ	खं	खः
+    ग	गा	गि	गी	गु	गू	गे	गै	गो	गौ	गं	गः
+    घ	घा	घि	घी	घु	घू	घे	घै	घो	घौ	घं	घः
+    च	चा	चि	ची	चु	चू	चे	चै	चो	चौ	चं	चः
+    छ	छा	छि	छी	छु	छू	छे	छै	छो	छौ	छं	छः
+    ज	जा	जि	जी	जु	जू	जे	जै	जो	जौ	जं	जः
+    झ	झा	झि	झी	झु	झू	झे	झै	झो	झौ	झं	झः
+    ट	टा	टि	टी	टु	टू	टे	टै	टो	टौ	टं	टः
+    ठ	ठा	ठि	ठी	ठु	ठू	ठे	ठै	ठो	ठौ	ठं	ठः
+    ड	डा	डि	डी	डु	डू	डे	डै	डो	डौ	डं	डः
+    ढ	ढा	ढि	ढी	ढु	ढू	ढे	ढै	ढो	ढौ	ढं	ढः
+    ण	णा	णि	णी	णु	णू	णे	णै	णो	णौ	णं	णः
+    त	ता	ति	ती	तु	तू	ते	तै	तो	तौ	तं	तः
+    थ	था	थि	थी	थु	थू	थे	थै	थो	थौ	थं	थः
+    द	दा	दि	दी	दु	दू	दे	दै	दो	दौ	दं	दः
+    ध	धा	धि	धी	धु	धू	धे	धै	धो	धौ	धं	धः
+    न	ना	नि	नी	नु	नू	ने	नै	नो	नौ	नं	नः
+    प	पा	पि	पी	पु	पू	पे	पै	पो	पौ	पं	पः
+    फ	फा	फि	फी	फु	फू	फे	फै	फो	फौ	फं	फः
+    ब	बा	बि	बी	बु	बू	बे	बै	बो	बौ	बं	बः
+    भ	भा	भि	भी	भु	भू	भे	भै	भो	भौ	भं	भः
+    म	मा	मि	मी	मु	मू	मे	मै	मो	मौ	मं	मः
+    य	या	यि	यी	यु	यू	ये	यै	यो	यौ	यं	यः
+    र	रा	रि	री	रु	रू	रे	रै	रो	रौ	रं	रः
+    ल	ला	लि	ली	लु	लू	ले	लै	लो	लौ	लं	लः
+    ळ	ळा	ळि	ळी	ळु	ळू	ळे	ळै	ळो	ळौ	ळं	ळः
+    व	वा	वि	वी	वु	वू	वे	वै	वो	वौ	वं	वः
+    श	शा	शि	शी	शु	शू	शे	शै	शो	शौ	शं	शः
+    ष	षा	षि	षी	षु	षू	षे	षै	षो	षौ	षं	षः
+    स	सा	सि	सी	सु	सू	से	सै	सो	सौ	सं	सः
+    ह	हा	हि	ही	हु	हू	हे	है	हो	हौ	हं	हः
+    क्ष	क्षा	क्षि	क्षी	क्षु	क्षू	क्षे	क्षै	क्षो	क्षौ	क्षं	क्षः
+    त्र	त्रा	त्रि	त्री	त्रु	त्रू	त्रे	त्रै	त्रो	त्रौ	त्रं	त्रः
+    ज्ञ	ज्ञा	ज्ञि	ज्ञी	ज्ञु	ज्ञू	ज्ञे	ज्ञै	ज्ञो	ज्ञौ	ज्ञं	ज्ञः
+    श्र	श्रा	श्रि	श्री	श्रु	श्रू	श्रे	श्रै	श्रो	श्रौ	श्रं	श्रःअ	आ	इ	ई	उ	ऊ	ए	ऐ	ओ	औ	अं	अः
+    -	ा	ि	ी	ु	ू	े	ै	ो	ौ	ं	ः</string>
+
+    <string name="updateNow">Update Now</string>
+    <string name="whatsnew">What\'s New :</string>
+    <string name="newUpdateMessage">1.Bug fixes and performance enhancement,"\n\n"2.Supports Marathi Language,"\n\n"3.UI Changes,"\n\n"4.Search improvements.</string>
+
+    <string name="mobNotExist">Sorry...! Entered Mobile Number Is Not Exist."\n"Please enter registered mobile number.</string>
+    <string name="regSuccess">Registration Successfull..."\n"Your password has been send to your registered Email Address.</string>
+    <string name="passSendSuccess">Your password has been send to your registered Email Address.</string>
+    <string name="yearlyComplaintCount">Yearly Grievance Count</string>
+    <string name="userRegSuccess">Registration Successfull...</string>
+    <string name="deactivated">Deactivated</string>
+    <string name="deactivateduser">Your package is expired. Please try later .....</string>
+    <string name="enterValidMailId">Enter valid mail Id</string>
+    <string name="enterMailid">Enter your mail id</string>
+    <string name="usernameNotExist">Username not exist</string>
+    <string name="failedToUpdatePassword">Failed to update password</string>
+    <string name="emailIdAlreadyExist">Sorry...! Entered EmailId Is Already Exist."\n\n"Please use another EmailId.</string>
+
+
+</resources>
