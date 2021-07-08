@@ -946,7 +946,7 @@ public class MyComplaintsActivity extends AppCompatActivity implements ItemClick
         bundle.putString("contact_person_name", complaintsDetails.getContact_person_name());
         bundle.putString("oxygen", complaintsDetails.getOxygen());
         bundle.putString("tokennumber", complaintsDetails.getTokennumber());
-        bundle.putString("units_required", complaintsDetails.getTokennumber());
+        bundle.putString("units_required", complaintsDetails.getUnits_required());
         bundle.putString("contact_person_mobile", complaintsDetails.getContact_person_mobile());
         bundle.putString("assignToId", complaintsDetails.getAssignToId());
         bundle.putString("assignFname", complaintsDetails.getAssignFname());

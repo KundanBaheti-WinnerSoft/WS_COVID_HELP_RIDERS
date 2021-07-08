@@ -534,7 +534,7 @@ public class RegistrationActivity extends AppCompatActivity {
         } else if (!commonCode.isValidMobileNo(RegistrationActivity.this, mobileno)) {
             edtMob.setError(getResources().getString(R.string.plsEnterMobNo));
             edtMob.requestFocus();
-        } else if (!edtEmailid.getText().toString().trim().matches("^[\\w-_\\.+]*[\\w-_\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$")) {
+        } else if (!edtEmailid.getText().toString().trim().matches("^[A-Za-z0-9+_.-]+@(.+)$")) {
             edtEmailid.setError(getResources().getString(R.string.validMailid));
             edtEmailid.requestFocus();
         } else if (!commonCode.isValidString(RegistrationActivity.this, BirthDate)) {
@@ -634,7 +634,7 @@ public class RegistrationActivity extends AppCompatActivity {
                             // Toast.makeText(getApplicationContext(), getResources().getString(R.string.registeredSuccess), Toast.LENGTH_LONG).show();
                             regSuccessPopup();
 
-                        } else if (message.equals("EmailId Already exists")) {
+                        } else if (message.equals("Sorry Email Already Exist...!!!")) {
                             Toast.makeText(RegistrationActivity.this, "Email Already Exists", Toast.LENGTH_SHORT).show();
 //                            mobNoAlreadyPopup();
                         } else {

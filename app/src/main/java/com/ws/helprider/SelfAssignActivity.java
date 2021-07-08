@@ -960,7 +960,7 @@ public class SelfAssignActivity extends AppCompatActivity implements ItemClickLi
         bundle.putString("contact_person_name", complaintsDetails.getContact_person_name());
         bundle.putString("oxygen", complaintsDetails.getOxygen());
         bundle.putString("tokennumber", complaintsDetails.getTokennumber());
-        bundle.putString("units_required", complaintsDetails.getTokennumber());
+        bundle.putString("units_required", complaintsDetails.getUnits_required());
         bundle.putString("assignToId", complaintsDetails.getAssignToId());
         bundle.putString("assignFname", complaintsDetails.getAssignFname());
         bundle.putString("assignMname", complaintsDetails.getAssignMname());
