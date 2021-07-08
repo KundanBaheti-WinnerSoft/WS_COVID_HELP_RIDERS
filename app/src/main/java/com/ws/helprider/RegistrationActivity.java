@@ -653,7 +653,7 @@ public class RegistrationActivity extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(), getResources().getString(R.string.tokenExpire), Toast.LENGTH_LONG).show();
 
                         SharedPreferences sp = getSharedPreferences("login", MODE_PRIVATE);
-                        sp.edit().clear().commit();
+                        sp.edit().clear().apply();
                         Intent intent = new Intent(RegistrationActivity.this, LoginActivity.class);
                         startActivity(intent);
                         finish();
