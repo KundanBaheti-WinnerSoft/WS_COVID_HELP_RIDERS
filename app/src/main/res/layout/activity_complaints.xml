@@ -37,7 +37,7 @@
                 android:layout_gravity="center"
                 android:layout_weight="1.3"
                 android:ems="10"
-                android:maxLength="20"></EditText>
+                android:maxLength="20" />
 
 
             <fr.ganfra.materialspinner.MaterialSpinner
@@ -51,9 +51,9 @@
                 app:ms_baseColor="@color/text_color"
                 app:ms_errorColor="@color/red"
                 app:ms_floatingLabelColor="@color/text_color"
-                app:ms_floatingLabelText="@string/compType"
+                app:ms_floatingLabelText="@string/serviceType"
                 app:ms_highlightColor="@color/text_color"
-                app:ms_hint="@string/compType"
+                app:ms_hint="@string/serviceType"
                 app:ms_multiline="false" />
 
 

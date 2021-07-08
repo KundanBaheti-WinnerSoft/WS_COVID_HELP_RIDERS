@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/background"
     android:orientation="vertical"
-    tools:context="com.ws.gms.AssignedComplaints">
+    tools:context="com.ws.helprider.AssignedComplaints">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -247,9 +247,9 @@
             app:ms_baseColor="@color/text_color"
             app:ms_errorColor="@color/red"
             app:ms_floatingLabelColor="@color/text_color"
-            app:ms_floatingLabelText="@string/compType"
+            app:ms_floatingLabelText="@string/serviceType"
             app:ms_highlightColor="@color/text_color"
-            app:ms_hint="@string/compType"
+            app:ms_hint="@string/serviceType"
             app:ms_multiline="false" />
 
 

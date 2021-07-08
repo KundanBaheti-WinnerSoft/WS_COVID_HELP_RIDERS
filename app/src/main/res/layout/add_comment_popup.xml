@@ -57,9 +57,9 @@
                     app:ms_baseColor="@color/text_color"
                     app:ms_errorColor="@color/red"
                     app:ms_floatingLabelColor="@color/text_color"
-                    app:ms_floatingLabelText="@string/selCompStatus"
+                    app:ms_floatingLabelText="@string/selServiceStatus"
                     app:ms_highlightColor="@color/text_color"
-                    app:ms_hint="@string/selCompStatus"
+                    app:ms_hint="@string/selServiceStatus"
                     app:ms_multiline="false" />
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -76,7 +76,7 @@
                         android:maxLength="200"
                         android:maxLines="6"
                         android:minLines="3"
-                        android:textAppearance="?android:attr/textAppearanceSmall"></EditText>
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
                 </com.google.android.material.textfield.TextInputLayout>
 
 

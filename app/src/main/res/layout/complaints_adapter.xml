@@ -84,9 +84,9 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="top"
                             android:layout_weight="1.5"
-                            android:text="@string/complaintType"
+                            android:text="@string/serviceType"
                             android:textAppearance="?android:attr/textAppearanceSmall"
-                            android:textStyle="bold"></TextView>
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="0dp"
@@ -96,7 +96,7 @@
                             android:gravity="center"
                             android:text=":"
                             android:textAppearance="?android:attr/textAppearanceSmall"
-                            android:textStyle="bold"></TextView>
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/tv_type"
@@ -105,7 +105,7 @@
                             android:layout_gravity="top"
                             android:layout_weight="3.5"
                             android:text=""
-                            android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
                     </TableRow>
 
                     <!--   <TextView
@@ -124,9 +124,9 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="top"
                             android:layout_weight="1.5"
-                            android:text="@string/title"
+                            android:text="@string/patient_name"
                             android:textAppearance="?android:attr/textAppearanceSmall"
-                            android:textStyle="bold"></TextView>
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="0dp"
@@ -136,16 +136,16 @@
                             android:gravity="center"
                             android:text=":"
                             android:textAppearance="?android:attr/textAppearanceSmall"
-                            android:textStyle="bold"></TextView>
+                            android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/tv_title"
+                            android:id="@+id/tv_patient_name"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="top"
                             android:layout_weight="3.5"
                             android:text=""
-                            android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
                     </TableRow>
 
 
@@ -165,9 +165,9 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="top"
                             android:layout_weight="1.5"
-                            android:text="@string/description"
+                            android:text="@string/patient_age"
                             android:textAppearance="?android:attr/textAppearanceSmall"
-                            android:textStyle="bold"></TextView>
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="0dp"
@@ -177,16 +177,16 @@
                             android:gravity="center"
                             android:text=":"
                             android:textAppearance="?android:attr/textAppearanceSmall"
-                            android:textStyle="bold"></TextView>
+                            android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/tv_desc"
+                            android:id="@+id/tv_patient_age"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="top"
                             android:layout_weight="3.5"
                             android:text=""
-                            android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
                     </TableRow>
 
 
@@ -206,9 +206,9 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="top"
                             android:layout_weight="1.5"
-                            android:text="@string/area"
+                            android:text="@string/contact_person_name"
                             android:textAppearance="?android:attr/textAppearanceSmall"
-                            android:textStyle="bold"></TextView>
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="0dp"
@@ -218,18 +218,52 @@
                             android:gravity="center"
                             android:text=":"
                             android:textAppearance="?android:attr/textAppearanceSmall"
-                            android:textStyle="bold"></TextView>
+                            android:textStyle="bold" />
 
                         <TextView
-                            android:id="@+id/tv_area"
+                            android:id="@+id/tv_contact_person_name"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="top"
                             android:layout_weight="3.5"
                             android:text=""
-                            android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
                     </TableRow>
 
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_5dp"
+                        android:weightSum="5.5">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:layout_weight="1.5"
+                            android:text="@string/contact_person_mob_no"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:layout_weight=".5"
+                            android:gravity="center"
+                            android:text=":"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tv_contact_person_mob_no"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:layout_weight="3.5"
+                            android:text=""
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+                    </TableRow>
 
                     <TableRow
                         android:layout_width="match_parent"
@@ -244,7 +278,7 @@
                             android:layout_weight="1.5"
                             android:text="@string/date"
                             android:textAppearance="?android:attr/textAppearanceSmall"
-                            android:textStyle="bold"></TextView>
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="0dp"
@@ -254,7 +288,7 @@
                             android:gravity="center"
                             android:text=":"
                             android:textAppearance="?android:attr/textAppearanceSmall"
-                            android:textStyle="bold"></TextView>
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/tv_date"

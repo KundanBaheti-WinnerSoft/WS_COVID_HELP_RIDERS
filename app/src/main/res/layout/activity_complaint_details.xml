@@ -14,15 +14,16 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
             android:background="@color/background"
             android:orientation="vertical">
 
             <LinearLayout
-                android:background="@drawable/border"
-android:layout_margin="@dimen/margin_5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_5dp"
+                android:background="@drawable/border"
                 android:orientation="vertical">
 
                 <de.hdodenhof.circleimageview.CircleImageView
@@ -52,44 +53,7 @@ android:layout_margin="@dimen/margin_5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:visibility="gone">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:weightSum="3">
-
-                    <Spinner
-                        android:id="@+id/spn_assign"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginBottom="8dp"
-                        android:layout_weight="2"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.502"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.498" />
-
-                    <TextView
-                        android:id="@+id/tv_assign"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginRight="@dimen/margin_5dp"
-                        android:layout_weight="1"
-                        android:background="@color/colorAccent"
-                        android:gravity="center"
-                        android:padding="@dimen/padding_5dp"
-                        android:text="@string/assign"
-                        android:textColor="@color/white"
-                        android:textStyle="bold" />
-                </LinearLayout>
+                android:visibility="visible">
 
                 <TextView
                     android:id="@+id/tv_self_assign"
@@ -105,7 +69,8 @@ android:layout_margin="@dimen/margin_5dp"
                     android:textStyle="bold" />
             </LinearLayout>
 
-            <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            <androidx.cardview.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/cardview1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -141,7 +106,7 @@ android:layout_margin="@dimen/margin_5dp"
                                 android:id="@+id/a"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="@string/complaintDetails"
+                                android:text="@string/serviceRequestDetails"
                                 android:textAppearance="?android:attr/textAppearanceSmall"
                                 android:textColor="@color/colorPrimary"
                                 android:textStyle="bold" />
@@ -158,7 +123,7 @@ android:layout_margin="@dimen/margin_5dp"
                         </RelativeLayout>
 
                         <TextView
-                            android:id="@+id/token"
+                            android:id="@+id/tv_token"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="@string/tokenNo"
@@ -180,9 +145,9 @@ android:layout_margin="@dimen/margin_5dp"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="top"
                                     android:layout_weight="2"
-                                    android:text="@string/complaintType"
+                                    android:text="@string/serviceType"
                                     android:textAppearance="?android:attr/textAppearanceSmall"
-                                    android:textStyle="bold"></TextView>
+                                    android:textStyle="bold" />
 
                                 <TextView
                                     android:layout_width="0dp"
@@ -192,7 +157,7 @@ android:layout_margin="@dimen/margin_5dp"
                                     android:gravity="top|center"
                                     android:text=":"
                                     android:textAppearance="?android:attr/textAppearanceSmall"
-                                    android:textStyle="bold"></TextView>
+                                    android:textStyle="bold" />
 
                                 <TextView
                                     android:id="@+id/complaintType"
@@ -201,7 +166,7 @@ android:layout_margin="@dimen/margin_5dp"
                                     android:layout_gravity="top"
                                     android:layout_weight="3"
                                     android:text=""
-                                    android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
                             </TableRow>
 
                             <TableRow
@@ -215,9 +180,9 @@ android:layout_margin="@dimen/margin_5dp"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="top"
                                     android:layout_weight="2"
-                                    android:text="@string/title"
+                                    android:text="@string/patient_name"
                                     android:textAppearance="?android:attr/textAppearanceSmall"
-                                    android:textStyle="bold"></TextView>
+                                    android:textStyle="bold" />
 
                                 <TextView
                                     android:layout_width="0dp"
@@ -227,52 +192,16 @@ android:layout_margin="@dimen/margin_5dp"
                                     android:gravity="center"
                                     android:text=":"
                                     android:textAppearance="?android:attr/textAppearanceSmall"
-                                    android:textStyle="bold"></TextView>
+                                    android:textStyle="bold" />
 
                                 <TextView
-                                    android:id="@+id/tv_title"
+                                    android:id="@+id/tv_patient_name"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="top"
                                     android:layout_weight="3"
                                     android:text=""
-                                    android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
-                            </TableRow>
-
-
-                            <TableRow
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="@dimen/margin_5dp"
-                                android:weightSum="5.5">
-
-                                <TextView
-                                    android:layout_width="0dp"
-                                    android:layout_height="wrap_content"
-                                    android:layout_gravity="top"
-                                    android:layout_weight="2"
-                                    android:text="@string/description"
-                                    android:textAppearance="?android:attr/textAppearanceSmall"
-                                    android:textStyle="bold"></TextView>
-
-                                <TextView
-                                    android:layout_width="0dp"
-                                    android:layout_height="wrap_content"
-                                    android:layout_gravity="top"
-                                    android:layout_weight=".5"
-                                    android:gravity="center"
-                                    android:text=":"
-                                    android:textAppearance="?android:attr/textAppearanceSmall"
-                                    android:textStyle="bold"></TextView>
-
-                                <TextView
-                                    android:id="@+id/tv_desc"
-                                    android:layout_width="0dp"
-                                    android:layout_height="wrap_content"
-                                    android:layout_gravity="top"
-                                    android:layout_weight="3"
-                                    android:text=""
-                                    android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
                             </TableRow>
 
 
@@ -287,9 +216,9 @@ android:layout_margin="@dimen/margin_5dp"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="top"
                                     android:layout_weight="2"
-                                    android:text="@string/area"
+                                    android:text="@string/patient_age"
                                     android:textAppearance="?android:attr/textAppearanceSmall"
-                                    android:textStyle="bold"></TextView>
+                                    android:textStyle="bold" />
 
                                 <TextView
                                     android:layout_width="0dp"
@@ -299,16 +228,52 @@ android:layout_margin="@dimen/margin_5dp"
                                     android:gravity="center"
                                     android:text=":"
                                     android:textAppearance="?android:attr/textAppearanceSmall"
-                                    android:textStyle="bold"></TextView>
+                                    android:textStyle="bold" />
 
                                 <TextView
-                                    android:id="@+id/tv_area"
+                                    android:id="@+id/tv_patient_age"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="top"
                                     android:layout_weight="3"
                                     android:text=""
-                                    android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                            </TableRow>
+
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_5dp"
+                                android:weightSum="5.5">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="2"
+                                    android:text="@string/contact_person_name"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight=".5"
+                                    android:gravity="center"
+                                    android:text=":"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tv_contact_person_name"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="3"
+                                    android:text=""
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
                             </TableRow>
 
                             <TableRow
@@ -322,9 +287,9 @@ android:layout_margin="@dimen/margin_5dp"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="top"
                                     android:layout_weight="2"
-                                    android:text="@string/mobNo"
+                                    android:text="@string/contact_person_mob_no"
                                     android:textAppearance="?android:attr/textAppearanceSmall"
-                                    android:textStyle="bold"></TextView>
+                                    android:textStyle="bold" />
 
                                 <TextView
                                     android:layout_width="0dp"
@@ -334,16 +299,16 @@ android:layout_margin="@dimen/margin_5dp"
                                     android:gravity="center"
                                     android:text=":"
                                     android:textAppearance="?android:attr/textAppearanceSmall"
-                                    android:textStyle="bold"></TextView>
+                                    android:textStyle="bold" />
 
                                 <TextView
-                                    android:id="@+id/tv_mob_no"
+                                    android:id="@+id/tv_contact_person_mob_no"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="top"
                                     android:layout_weight="3"
                                     android:text=""
-                                    android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
                             </TableRow>
 
                             <TableRow
@@ -359,7 +324,7 @@ android:layout_margin="@dimen/margin_5dp"
                                     android:layout_weight="2"
                                     android:text="@string/date"
                                     android:textAppearance="?android:attr/textAppearanceSmall"
-                                    android:textStyle="bold"></TextView>
+                                    android:textStyle="bold" />
 
                                 <TextView
                                     android:layout_width="0dp"
@@ -369,7 +334,7 @@ android:layout_margin="@dimen/margin_5dp"
                                     android:gravity="center"
                                     android:text=":"
                                     android:textAppearance="?android:attr/textAppearanceSmall"
-                                    android:textStyle="bold"></TextView>
+                                    android:textStyle="bold" />
 
                                 <TextView
                                     android:id="@+id/tv_date"
@@ -378,7 +343,672 @@ android:layout_margin="@dimen/margin_5dp"
                                     android:layout_gravity="top"
                                     android:layout_weight="3"
                                     android:text=""
-                                    android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_5dp"
+                                android:id="@+id/tr_bg"
+                                android:weightSum="5.5">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="2"
+                                    android:text="@string/patient_bg"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight=".5"
+                                    android:gravity="center"
+                                    android:text=":"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tv_patient_bg"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="3"
+                                    android:text=""
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_5dp"
+                                android:id="@+id/tr_oxygen_level"
+                                android:weightSum="5.5">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="2"
+                                    android:text="@string/patient_oxygen_level"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight=".5"
+                                    android:gravity="center"
+                                    android:text=":"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tv_patient_oxygen_level"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="3"
+                                    android:text=""
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_5dp"
+                                android:id="@+id/tr_hrct_score"
+                                android:weightSum="5.5">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="2"
+                                    android:text="@string/patient_hrct_score"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight=".5"
+                                    android:gravity="center"
+                                    android:text=":"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tv_patient_hrct_score"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="3"
+                                    android:text=""
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_5dp"
+                                android:id="@+id/tr_units_required"
+                                android:weightSum="5.5">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="2"
+                                    android:text="@string/plasma_units_required"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight=".5"
+                                    android:gravity="center"
+                                    android:text=":"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tv_units_required"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="3"
+                                    android:text=""
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tr_hospital_name"
+                                android:layout_marginTop="@dimen/margin_5dp"
+                                android:weightSum="5.5">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="2"
+                                    android:text="@string/hospital_name"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight=".5"
+                                    android:gravity="center"
+                                    android:text=":"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tv_hospital_name"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="3"
+                                    android:text=""
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_5dp"
+                                android:id="@+id/tr_hospital_address"
+                                android:weightSum="5.5">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="2"
+                                    android:text="@string/hospital_address"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight=".5"
+                                    android:gravity="center"
+                                    android:text=":"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tv_hospital_address"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="3"
+                                    android:text=""
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_5dp"
+                                android:id="@+id/tr_paient_address"
+                                android:weightSum="5.5">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="2"
+                                    android:text="@string/patient_address"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight=".5"
+                                    android:gravity="center"
+                                    android:text=":"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tv_patient_address"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="3"
+                                    android:text=""
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_5dp"
+                                android:id="@+id/tr_rtpcr_test_date"
+                                android:weightSum="5.5">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="2"
+                                    android:text="@string/rtpcr_test_date"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight=".5"
+                                    android:gravity="center"
+                                    android:text=":"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tv_rtpcr_test_date"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="3"
+                                    android:text=""
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_5dp"
+                                android:id="@+id/tr_rtpcr_test_result"
+                                android:weightSum="5.5">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="2"
+                                    android:text="@string/rtpcr_test_result"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight=".5"
+                                    android:gravity="center"
+                                    android:text=":"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tv_rtpcr_test_result"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="3"
+                                    android:text=""
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_5dp"
+                                android:id="@+id/tr_hospital_type"
+                                android:weightSum="5.5">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="2"
+                                    android:text="@string/hospitalType"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight=".5"
+                                    android:gravity="center"
+                                    android:text=":"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tv_gov_private"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="3"
+                                    android:text=""
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_5dp"
+                                android:id="@+id/tr_o2_room_level"
+                                android:weightSum="5.5">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="2"
+                                    android:text="@string/o2_room_level"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight=".5"
+                                    android:gravity="center"
+                                    android:text=":"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tv_o2_room_level"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="3"
+                                    android:text=""
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_5dp"
+                                android:id="@+id/tr_o2_with_support"
+                                android:weightSum="5.5">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="2"
+                                    android:text="@string/patient_o2_with_support"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight=".5"
+                                    android:gravity="center"
+                                    android:text=":"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tv_o2_with_support"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="3"
+                                    android:text=""
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                            </TableRow>
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tr_current_condition"
+                                android:layout_marginTop="@dimen/margin_5dp"
+                                android:weightSum="5.5">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="2"
+                                    android:text="@string/patient_current_condition"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight=".5"
+                                    android:gravity="center"
+                                    android:text=":"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tv_patient_current_condition"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="3"
+                                    android:text=""
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                            </TableRow>
+                            <TableRow
+                                android:id="@+id/tr_other_disease"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_5dp"
+                                android:weightSum="5.5">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="2"
+                                    android:text="@string/patient_other_disease"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight=".5"
+                                    android:gravity="center"
+                                    android:text=":"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tv_other_disease"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="3"
+                                    android:text=""
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                            </TableRow>
+                            <TableRow
+                                android:id="@+id/tr_help_needed"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_5dp"
+                                android:weightSum="5.5">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="2"
+                                    android:text="@string/what_kind_of_help_needed"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight=".5"
+                                    android:gravity="center"
+                                    android:text=":"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tv_help_needed"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="3"
+                                    android:text=""
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                            </TableRow>
+                            <TableRow
+                                android:id="@+id/tr_dr_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_5dp"
+                                android:weightSum="5.5">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="2"
+                                    android:text="@string/dr_name"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight=".5"
+                                    android:gravity="center"
+                                    android:text=":"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tv_dr_name"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="3"
+                                    android:text=""
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                            </TableRow>
+                            <TableRow
+                                android:id="@+id/tr_drMobNo"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_5dp"
+                                android:weightSum="5.5">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="2"
+                                    android:text="@string/dr_mob_no"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight=".5"
+                                    android:gravity="center"
+                                    android:text=":"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tv_dr_mob_no"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="3"
+                                    android:text=""
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                            </TableRow>
+                            <TableRow
+                                android:id="@+id/tr_ward"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_5dp"
+                                android:weightSum="5.5">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="2"
+                                    android:text="@string/ward"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight=".5"
+                                    android:gravity="center"
+                                    android:text=":"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tv_ward"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="3"
+                                    android:text=""
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                            </TableRow>
+                            <TableRow
+                                android:id="@+id/tr_bed_required"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_5dp"
+                                android:weightSum="5.5">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="2"
+                                    android:text="@string/type_of_required_bed"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight=".5"
+                                    android:gravity="center"
+                                    android:text=":"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/tv_bed_require"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="top"
+                                    android:layout_weight="3"
+                                    android:text=""
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
                             </TableRow>
                         </TableLayout>
 
@@ -439,7 +1069,7 @@ android:layout_margin="@dimen/margin_5dp"
                                         android:id="@+id/b"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/complaintAssignTo"
+                                        android:text="@string/requestAssignTo"
                                         android:textAppearance="?android:attr/textAppearanceSmall"
                                         android:textColor="@color/colorPrimary"
                                         android:textStyle="bold" />
@@ -470,7 +1100,7 @@ android:layout_margin="@dimen/margin_5dp"
                                             android:layout_height="wrap_content"
                                             android:layout_gravity="top"
                                             android:layout_weight="2"
-                                            android:text="@string/volunteerName"
+                                            android:text="@string/name"
                                             android:textAppearance="?android:attr/textAppearanceSmall"
                                             android:textStyle="bold"></TextView>
 
@@ -505,7 +1135,7 @@ android:layout_margin="@dimen/margin_5dp"
                                             android:layout_height="wrap_content"
                                             android:layout_gravity="top"
                                             android:layout_weight="2"
-                                            android:text="@string/volunteerNumber"
+                                            android:text="@string/mobNo"
                                             android:textAppearance="?android:attr/textAppearanceSmall"
                                             android:textStyle="bold"></TextView>
 
@@ -541,7 +1171,7 @@ android:layout_margin="@dimen/margin_5dp"
                                             android:layout_height="wrap_content"
                                             android:layout_gravity="top"
                                             android:layout_weight="2"
-                                            android:text="@string/volunteerMail"
+                                            android:text="@string/email"
                                             android:textAppearance="?android:attr/textAppearanceSmall"
                                             android:textStyle="bold" />
 
@@ -573,12 +1203,14 @@ android:layout_margin="@dimen/margin_5dp"
                     </LinearLayout>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
+
             <GridView
                 android:id="@+id/gv"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                android:numColumns="3"
-                ></GridView>
+                android:visibility="gone"
+                android:numColumns="3" />
         </LinearLayout>
+
     </ScrollView>
 </LinearLayout>

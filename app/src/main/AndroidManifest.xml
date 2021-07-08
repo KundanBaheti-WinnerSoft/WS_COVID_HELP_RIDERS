@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ws.gms">
+    package="com.ws.helprider">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
-        android:hardwareAccelerated="false"
+        android:hardwareAccelerated="true"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/covidhelpridersquare"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/covidhelpridercircle"
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name="com.ws.gms.SelfAssignActivity"></activity>
-        <activity android:name="com.ws.gms.AssignedComplaints" />
-        <activity android:name="com.ws.gms.MyComplaintsActivity" />
-        <activity android:name="com.ws.gms.AddImagesActivity" />
-        <activity android:name="com.ws.gms.GallaryActivity" />
-        <activity android:name="com.ws.gms.UpdateProfileActivity" />
-        <activity android:name="com.ws.gms.ComplaintDetailsActivity" />
-        <activity android:name="com.ws.gms.AddComplaintActivity" />
-        <activity android:name="com.ws.gms.AboutUsActivity" />
-        <activity android:name="com.ws.gms.ChangePasswordActivity" />
-        <activity android:name="com.ws.gms.UserProfileDetailsActivity" />
-        <activity android:name="com.ws.gms.ProfilesDetailsActivity" />
-        <activity android:name="com.ws.gms.ComplaintsActivity" />
-        <activity android:name="com.ws.gms.UsersActivity" />
-        <activity android:name="com.ws.gms.VolunteersActivity" />
-        <activity android:name="com.ws.gms.AdminsActivity" />
-        <activity android:name="com.ws.gms.SettingsActivity" />
-        <activity android:name="com.ws.gms.ActivityForgetPassword" />
+        <activity android:name="com.ws.helprider.SelfAssignActivity" />
+        <activity android:name="com.ws.helprider.AssignedComplaints" />
+        <activity android:name="com.ws.helprider.MyComplaintsActivity" />
+        <activity android:name="com.ws.helprider.AddImagesActivity" />
+        <activity android:name="com.ws.helprider.GallaryActivity" />
+        <activity android:name="com.ws.helprider.UpdateProfileActivity" />
+        <activity android:name="com.ws.helprider.ComplaintDetailsActivity" />
+        <activity android:name="com.ws.helprider.AddComplaintActivity" />
+        <activity android:name="com.ws.helprider.AboutUsActivity" />
+        <activity android:name="com.ws.helprider.ChangePasswordActivity" />
+        <activity android:name="com.ws.helprider.UserProfileDetailsActivity" />
+        <activity android:name="com.ws.helprider.ProfilesDetailsActivity" />
+        <activity android:name="com.ws.helprider.ComplaintsActivity" />
+        <activity android:name="com.ws.helprider.UsersActivity" />
+        <activity android:name="com.ws.helprider.VolunteersActivity" />
+        <activity android:name="com.ws.helprider.AdminsActivity" />
+        <activity android:name="com.ws.helprider.SettingsActivity" />
+        <activity android:name="com.ws.helprider.ActivityForgetPassword" />
         <activity
-            android:name="com.ws.gms.RegistrationActivity"
+            android:name="com.ws.helprider.RegistrationActivity"
             android:screenOrientation="portrait" />
-        <activity android:name="com.ws.gms.LoginActivity">
+        <activity android:name="com.ws.helprider.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.ws.gms.ChangeLanguageActivity" />
+        <activity android:name="com.ws.helprider.ChangeLanguageActivity" />
         <activity
-            android:name="com.ws.gms.VolunteerDashboardActivity"
+            android:name="com.ws.helprider.VolunteerDashboardActivity"
             android:label="@string/dashboard"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.ws.gms.UserDashboardActivity"
+            android:name="com.ws.helprider.UserDashboardActivity"
             android:label="@string/dashboard"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.ws.gms.AdminDashboardActivity"
+            android:name="com.ws.helprider.AdminDashboardActivity"
             android:label="@string/dashboard"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.ws.gms.SADashboardActivity"
+            android:name="com.ws.helprider.SADashboardActivity"
             android:label="@string/dashboard"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>

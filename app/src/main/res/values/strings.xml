@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">WS GMS</string>
+    <string name="app_name">WS HELP RIDER</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Winner Software</string>
@@ -148,12 +148,12 @@
     <string name="passDoesnMatch">Incorrect Password</string>
     <string name="currentPassNewPassNotMatch">Current password is incorrect, Please enter correct password</string>
     <string name="rateUsOnPlayStore">Rate us on Play Store.</string>
-    <string name="allRightsReserved">WS GMS and the WS GMS Logos are trademark of Winner Software Pvt.Ltd. All rights reserved.</string>
+    <string name="allRightsReserved">WS HELP RIDER and the WS HELP RIDER Logos are trademark of Winner Software Pvt.Ltd. All rights reserved.</string>
     <string name="allRights">Copyright "\u00a9" 2019 Winner Software</string>
 
-    <string name="aboutUsDescription">WS GMS for the Grievances tracking and management.</string>
+    <string name="aboutUsDescription">WS HELP RIDER for the Grievances tracking and management.</string>
     <string name="version">Version 1.0</string>
-    <string name="app_desc">WS GMS is developed with an aim to redress grievances for the services provided by different government and private organisations.
+    <string name="app_desc">WS HELP RIDER is developed with an aim to redress grievances for the services provided by different government and private organisations.
 
     Also, aiming to enable submission of grievances by the aggrieved citizens from anywhere and anytime (24x7) to concerned departments,
     who will scrutinize and take action for speedy and favorable redress of these grievances.
@@ -269,8 +269,8 @@ With automated workflow grievance will route through all the stakeholders for im
     <string name="activeDeactive">Active / Deactive</string>
     <string name="updatedSuccessfully">Updated Successfully</string>
     <string name="deactivited">Deactivated</string>
-    <string name="notAllowToAdd">You are deactivated by Admin, Not Allow to add grievance.</string>
-    <string name="notAllowToSee">You are deactivated by Admin, Not Allow to see grievance.</string>
+    <string name="notAllowToAdd">You are deactivated by Admin, Not Allow to apply request.</string>
+    <string name="notAllowToSee">You are deactivated by Admin, Not Allow to see request.</string>
     <string name="plsSelDate">Please Select Date</string>
     <string name="assignedComplaints">Assigned Grievances</string>
     <string name="otpverification">OTP Verification</string>
@@ -391,6 +391,87 @@ With automated workflow grievance will route through all the stakeholders for im
     <string name="usernameNotExist">Username not exist</string>
     <string name="failedToUpdatePassword">Failed to update password</string>
     <string name="emailIdAlreadyExist">Sorry...! Entered EmailId Is Already Exist."\n\n"Please use another EmailId.</string>
+    <string name="patient_name">Patient name</string>
+    <string name="patient_age">Patient age</string>
+    <string name="patient_address">Patient address</string>
+    <string name="contact_person_name">Contact person name</string>
+    <string name="contact_person_mob_no">Contact person mobile no.</string>
+    <string name="ward">Ward</string>
+    <string name="type_of_required_bed">Type of required bed</string>
+    <string name="icu">ICU</string>
+    <string name="other">Other</string>
+    <string name="date_of_test">Date of test</string>
+    <string name="rtpcr_test_date">RTPCR test date</string>
+    <string name="rtpcr_test_result">RTPCR test result</string>
+    <string name="positive">Positive</string>
+    <string name="negative">Negative</string>
+    <string name="o2_room_level">O2 room level</string>
+    <string name="patient_o2_with_support">Patient O2 with support</string>
+    <string name="any_comorbidity">Any other disease</string>
+    <string name="patient_current_condition">Patient current condition</string>
+    <string name="patient_other_disease">Patient other disease</string>
+    <string name="what_kind_of_help_needed">What kind of help needed</string>
+    <string name="where_does_it_want">Where does it want</string>
+    <string name="where_admitted_currently">Where admitted currently</string>
+    <string name="patient_oxygen_level">Patient oxygen level</string>
+    <string name="patient_hrct_score">Patient HRCT score</string>
+    <string name="plasma_units_required">Plasma units required</string>
+    <string name="dr_mob_no">Doctor mob no.</string>
+    <string name="hospital_name">Hospital name</string>
+    <string name="hospital_address">Hospital address</string>
+    <string name="dr_name">Doctor name</string>
+    <string name="requestGeneratedSuccessfully">Request generated successfully</string>
+    <string name="plsEnterPatientName">Please enter patient name</string>
+    <string name="serviceRequestDetails">Service request details</string>
+    <string name="ServiceNo">Service number</string>
+    <string name="colon">:</string>
+    <string name="patient_bg">Patient blood group</string>
+    <string name="addServiceRequest">Add Service Request</string>
+    <string name="applyForService">Apply for service</string>
+    <string name="myRequest">My request</string>
+    <string name="serviceType">Service Type</string>
+    <string name="selServiceStatus">Select Service Status</string>
+    <string name="requestNotFound">Request Not Found</string>
+    <string name="requestsStatus">Request status</string>
+    <string name="allRequests">All Requests</string>
+    <string name="hospitalType">Hospital Type</string>
+    <string name="requestAlreadyColsed">Request already closed</string>
+    <string name="requestAlreadyResolved">Request already resolved</string>
+    <string name="requestNotResolved">Request not resolved</string>
+    <string name="plsSelectServiceType">Please select service type</string>
+    <string name="requestAssignTo">Request assigned to</string>
+    <string name="totalRequests">Total Requests</string>
+    <string name="yearlyRequestCount">Yearly Request Count</string>
+    <string name="requestSentSuccessfully">Request send successfully</string>
+    <string name="AllRequests">All Requests</string>
+    <string name="government_links">Covid Help Links</string>
+    <string name="reg_for_vaccine">Register for vaccination</string>
+    <string name="janaushadhi">janaushadhi.gov.in</string>
+    <string name="plsEnterPatientAge">Please enter patient age</string>
+    <string name="plsEnterPatientAddress">Please enter patient address</string>
+    <string name="plsSelRequiredBed">Please select required bed</string>
+    <string name="plsEnterRTPCRTestDate">Please enter RTPCR test date</string>
+    <string name="plsSelRTPCRTestResult">Please select RTPCR test result</string>
+    <string name="plsEnterHospitalType">Please enter hospital type</string>
+    <string name="plsEnterO2RoomLevel">Please enter O2 room level</string>
+    <string name="plsEnterO2WithSupport">Please enter O2 with support</string>
+    <string name="plsEnterPatientCurrentCondition">Please enter patient current condition</string>
+    <string name="plsEnterWhatHelpNeeded">Please enter what help needed</string>
+    <string name="plsEnterHRCTScore">Please enter HRCT score</string>
+    <string name="plsEnterDrMobNo">Please enter doctor\'s mobile number</string>
+    <string name="plsEnterHospitalName">Please enter hospital name</string>
+    <string name="plsEnterHospitalAddress">Please enter hospital address</string>
+    <string name="plsEnterContactPersonName">Please enter contact person name</string>
+    <string name="plsEnterDrName">Please enter doctor name</string>
+    <string name="plsEnterContactPersonMobNo">Please enter contact person mobile number</string>
+    <string name="plsEnterOxygenScore">Please enter oxygen score</string>
+    <string name="plsEnterPlasmaRequiredUnits">Please enter plasma required units</string>
+    <string name="plsEnterWardType">Please enter ward type</string>
+    <string name="plsEnterOtherDisease">Please enter other disease</string>
+    <string name="plsEnterValidPatientAge">Please enter valid patient age</string>
+    <string name="plsEnterValidO2RoomLevel">Please enter valid o2 room level</string>
+    <string name="plsEnterValidO2WithSupport">Please enter valid O2 with support</string>
+    <string name="plsEnterValidPatientName">Please enter valid patient name</string>
 
 
 </resources>

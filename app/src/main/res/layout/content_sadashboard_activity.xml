@@ -52,7 +52,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
                         android:layout_gravity="center_horizontal"
-                        android:text="@string/complaintStatus"
+                        android:text="@string/requestsStatus"
                         android:textColor="@color/black" />
 
                     <androidx.cardview.widget.CardView
@@ -539,6 +539,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/margin_5dp"
                     android:layout_weight="1"
+                    android:visibility="gone"
                     android:background="@color/white"
                     app:cardCornerRadius="@dimen/margin_5dp"
                     app:cardElevation="@dimen/margin_5dp"
@@ -714,7 +715,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:gravity="center"
-                            android:src="@mipmap/complaint" />
+                            android:src="@mipmap/ic_all_request" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -723,7 +724,7 @@
                             android:ellipsize="end"
                             android:gravity="center"
                             android:maxLines="1"
-                            android:text="@string/grievances"
+                            android:text="@string/allRequests"
                             android:textColor="@color/black"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -800,7 +801,7 @@
                     android:layout_weight="1"
                     android:background="@color/white"
 
-                    android:visibility="invisible"
+                    android:visibility="gone"
                     app:cardCornerRadius="@dimen/margin_5dp"
                     app:cardElevation="@dimen/margin_5dp"
                     app:cardMaxElevation="@dimen/margin_5dp">

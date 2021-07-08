@@ -5,7 +5,7 @@ android {
     buildToolsVersion "28.0.3"
     defaultConfig {
         multiDexEnabled true
-        applicationId "com.ws.gms"
+        applicationId "com.ws.helprider"
         minSdkVersion 18
         targetSdkVersion 28
         versionCode 1

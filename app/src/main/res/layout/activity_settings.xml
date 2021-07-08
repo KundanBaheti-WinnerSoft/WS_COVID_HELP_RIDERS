@@ -62,6 +62,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
+                android:visibility="gone"
                 android:layout_margin="@dimen/layout_margin_10dp"
                 android:gravity="center"
                 android:padding="@dimen/layout_margin_10dp">
