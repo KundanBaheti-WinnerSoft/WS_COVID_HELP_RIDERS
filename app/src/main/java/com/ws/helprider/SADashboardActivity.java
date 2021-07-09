@@ -340,25 +340,31 @@ public class SADashboardActivity extends AppCompatActivity
         data.setValueFormatter(new MyValueFormatter());
         bardataset.setValueFormatter(new MyValueFormatter());
     }
+//
+//    @Override
+//    protected void onStart() {
+//        super.onStart();
+//
+//
+//        imageName = sharedPreferences.getString("image", "");
+//
+//        imageUrl = urllink.downloadProfilePic + imageName; // profileImageUrl
+//        Picasso.with(getApplicationContext()).load(imageUrl).into(ivProfilePic);
+//        ivProfilePic.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                viewProfilePicPopup(v);
+//            }
+//        });
+//
+//        ivProfilePic.setImageResource(R.mipmap.winner_logo);
+//
+//    }
 
     @Override
-    protected void onStart() {
-        super.onStart();
+    protected void onResume() {
+        super.onResume();
         getComplaintCount();
-
-        imageName = sharedPreferences.getString("image", "");
-
-        imageUrl = urllink.downloadProfilePic + imageName; // profileImageUrl
-        Picasso.with(getApplicationContext()).load(imageUrl).into(ivProfilePic);
-        ivProfilePic.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                viewProfilePicPopup(v);
-            }
-        });
-
-        ivProfilePic.setImageResource(R.mipmap.winner_logo);
-
     }
 
     public void chardData() {
@@ -451,7 +457,7 @@ public class SADashboardActivity extends AppCompatActivity
                         }
                         barChart();
                     } else {
-                        commonCode.AlertDialog_Pbtn(SADashboardActivity.this, getResources().getString(R.string.notFound), getResources().getString(R.string.complaintsNotFound), getResources().getString(R.string.ok));
+                        commonCode.AlertDialog_Pbtn(SADashboardActivity.this, getResources().getString(R.string.notFound), getResources().getString(R.string.requestNotFound), getResources().getString(R.string.ok));
                     }
                 }
 
@@ -509,32 +515,76 @@ public class SADashboardActivity extends AppCompatActivity
                         for (int i = 0; i < response.length(); i++) {
                             try {
 
-                                tvTotalCount.setText(getResources().getString(R.string.totalRequests) + " : " + response.getString("Total"));
-                                tvNotResolvedCount.setText(getResources().getString(R.string.notResolved) + " : " + response.getString("NotResolved"));
-                                tvOpenCount.setText(response.getString("Open"));
-                                tvInProgressCount.setText(response.getString("Inprogress"));
-                                tvResolveCount.setText(response.getString("resolve"));
-                                tvClosedCount.setText(response.getString("Closed"));
+//                                tvTotalCount.setText(getResources().getString(R.string.totalRequests) + " : " + response.getString("Total"));
+//                                tvNotResolvedCount.setText(getResources().getString(R.string.notResolved) + " : " + response.getString("NotResolved"));
+//                                tvOpenCount.setText(response.getString("Open"));
+//                                tvInProgressCount.setText(response.getString("Inprogress"));
+//                                tvResolveCount.setText(response.getString("resolve"));
+//                                tvClosedCount.setText(response.getString("Closed"));
 
-                                tvAdminCount.setText(response.getString("TotalAdmin"));
-                                tvVolCount.setText(response.getString("TotalVolunteer"));
-                                tvUsersCount.setText(response.getString("TotalUser"));
-                                tvCompCount.setText(response.getString("Total"));
+//                                tvAdminCount.setText(response.getString("TotalAdmin"));
+                              int  totalAdminCount = Integer.parseInt(response.getString("TotalAdmin"));
+                                if (totalAdminCount==0){
+                                    tvAdminCount.setText(0);
+                                }else {
+                                    tvAdminCount.setText(response.getString("TotalAdmin"));
+                                }
+//                                tvUsersCount.setText(response.getString("TotalUser"));
+                                int  totalUserCount = Integer.parseInt(response.getString("TotalUser"));
+                                if (totalUserCount==0){
+                                    tvUsersCount.setText("0");
+                                }else {
+                                    tvUsersCount.setText(response.getString("TotalUser"));
+                                }
+//                                tvCompCount.setText(response.getString("Total"));
 
                                 totalCount = Integer.parseInt(response.getString("Total"));
+                                if (totalCount==0){
+                                    tvTotalCount.setText(getResources().getString(R.string.totalRequests) + " : " +0);
+                                    tvCompCount.setText("0");
+                                }else {
+                                    tvTotalCount.setText(getResources().getString(R.string.totalRequests) + " : " +response.getString("Total"));
+                                    tvCompCount.setText(response.getString("Total"));
+                                }
                                 openCount = Integer.parseInt(response.getString("Open"));
+                                if (openCount==0){
+                                    tvOpenCount.setText("0");
+                                }else {
+                                    tvOpenCount.setText(response.getString("Open"));
+                                }
                                 inProgressCount = Integer.parseInt(response.getString("Inprogress"));
+                                if (inProgressCount==0){
+                                    tvInProgressCount.setText("0");
+                                }else {
+                                    tvInProgressCount.setText(response.getString("Inprogress"));
+                                }
                                 resolveCount = Integer.parseInt(response.getString("resolve"));
+                                if (resolveCount==0){
+                                    tvResolveCount.setText("0");
+                                }else {
+                                    tvResolveCount.setText(response.getString("resolve"));
+                                }
                                 closeCount = Integer.parseInt(response.getString("Closed"));
+                                if (closeCount==0){
+                                    tvClosedCount.setText("0");
+                                }else {
+                                    tvClosedCount.setText(response.getString("Closed"));
+                                }
                                 notResolveCount = Integer.parseInt(response.getString("NotResolved"));
+                                if (notResolveCount==0){
+                                    tvNotResolvedCount.setText(getResources().getString(R.string.notResolved) + " : " +"0");
+                                }else {
+                                    tvNotResolvedCount.setText(getResources().getString(R.string.notResolved) + " : " +response.getString("NotResolved"));
+                                }
                             } catch (JSONException e) {
                                 e.printStackTrace();
                             }
                         }
                         chardData();
                     } else {
-                        commonCode.AlertDialog_Pbtn(SADashboardActivity.this, getResources().getString(R.string.notFound), getResources().getString(R.string.complaintsNotFound), getResources().getString(R.string.ok));
+                        commonCode.AlertDialog_Pbtn(SADashboardActivity.this, getResources().getString(R.string.notFound), getResources().getString(R.string.requestNotFound), getResources().getString(R.string.ok));
                     }
+                    getMonthwiseCount();
                 }
             }, new Response.ErrorListener() {
                 @Override
@@ -545,7 +595,7 @@ public class SADashboardActivity extends AppCompatActivity
                         Toast.makeText(getApplicationContext(), getResources().getString(R.string.tokenExpire), Toast.LENGTH_LONG).show();
 
                         SharedPreferences sp = getSharedPreferences("login", MODE_PRIVATE);
-                        sp.edit().clear().commit();
+                        sp.edit().clear().apply();
                         Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
                         startActivity(intent);
                         //  finish();

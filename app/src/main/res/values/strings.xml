@@ -233,11 +233,11 @@
     <string name="updatedSuccess">Updated Successfully.</string>
     <string name="remove">Remove</string>
     <string name="edit">Edit</string>
-    <string name="appInfo">An android based application that aims to provide the citizens with a platform to redress their grievances or grievances.
-Citizen can lodge the  grievance online via app from anywhere any time.
-With automated workflow grievance will route through all the stakeholders for immediate redress.</string>
+    <string name="appInfo">An android based application that aims to provide the citizens with a platform to help them in this COVID pandemic.
+Citizen can apply the  request online via app from anywhere any time.
+With automated workflow request will route through all the stakeholders for immediate redress.</string>
 
-    <string name="tagLine">“Raise your grievances via WS-GMS”</string>
+    <string name="tagLine">“Raise your request via WS-Help Rider”</string>
 
     <string name="addImages">Add Images</string>
     <string name="gallery">Gallery</string>
@@ -381,7 +381,7 @@ With automated workflow grievance will route through all the stakeholders for im
 
     <string name="mobNotExist">Sorry...! Entered Mobile Number Is Not Exist."\n"Please enter registered mobile number.</string>
     <string name="regSuccess">Registration Successfull..."\n"Your password has been send to your registered Email Address.</string>
-    <string name="passSendSuccess">Your password has been send to your registered Email Address.</string>
+    <string name="passSendSuccess">Your password has been send to your registered Email Address. Please check spam folder if not received.</string>
     <string name="yearlyComplaintCount">Yearly Grievance Count</string>
     <string name="userRegSuccess">Registration Successfull...</string>
     <string name="deactivated">Deactivated</string>
@@ -476,6 +476,7 @@ With automated workflow grievance will route through all the stakeholders for im
     <string name="plsEnterValidDrMobNo">Please enter valid doctor\'s mobile number</string>
     <string name="plsEnterValidContactPersonMobNo">Please enter valid contact person mobile number</string>
     <string name="plsEnterValidMobNo">Please enter valid mobile number</string>
+    <string name="updatedSuccessfullyPleaseLoginAgain">Profile Updated Successfully. Please login again</string>
 
 
 </resources>

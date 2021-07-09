@@ -413,30 +413,67 @@ public class UserDashboardActivity extends AppCompatActivity
 
                         for (int i = 0; i < response.length(); i++) {
                             try {
-                                tvTotalCount.setText(getResources().getString(R.string.totalRequests) + " : " + response.getString("Total"));
-                                tvNotResolvedCount.setText(getResources().getString(R.string.notResolved) + " : " + response.getString("NotResolved"));
-                                tvOpenCount.setText(response.getString("Open"));
-                                tvInProgressCount.setText(response.getString("Inprogress"));
-                                tvResolveCount.setText(response.getString("resolve"));
-                                tvClosedCount.setText(response.getString("Closed"));
-
+//                                tvTotalCount.setText(getResources().getString(R.string.totalRequests) + " : " + response.getString("Total"));
+//                                tvNotResolvedCount.setText(getResources().getString(R.string.notResolved) + " : " + response.getString("NotResolved"));
+//                                tvOpenCount.setText(response.getString("Open"));
+//                                tvInProgressCount.setText(response.getString("Inprogress"));
+//                                tvResolveCount.setText(response.getString("resolve"));
+//                                tvClosedCount.setText(response.getString("Closed"));
+//
+//                                totalCount = Integer.parseInt(response.getString("Total"));
+//                                openCount = Integer.parseInt(response.getString("Open"));
+//                                inProgressCount = Integer.parseInt(response.getString("Inprogress"));
+//                                resolveCount = Integer.parseInt(response.getString("resolve"));
+//                                closeCount = Integer.parseInt(response.getString("Closed"));
+//                                notResolveCount = Integer.parseInt(response.getString("NotResolved"));
                                 totalCount = Integer.parseInt(response.getString("Total"));
+                                if (totalCount==0){
+                                    tvTotalCount.setText(getResources().getString(R.string.totalRequests) + " : " +"0");
+                                }else {
+                                    tvTotalCount.setText(getResources().getString(R.string.totalRequests) + " : " +response.getString("Total"));
+                                }
                                 openCount = Integer.parseInt(response.getString("Open"));
+                                if (openCount==0){
+                                    tvOpenCount.setText("0");
+                                }else {
+                                    tvOpenCount.setText(response.getString("Open"));
+                                }
                                 inProgressCount = Integer.parseInt(response.getString("Inprogress"));
+                                if (inProgressCount==0){
+                                    tvInProgressCount.setText("0");
+                                }else {
+                                    tvInProgressCount.setText(response.getString("Inprogress"));
+                                }
                                 resolveCount = Integer.parseInt(response.getString("resolve"));
+                                if (resolveCount==0){
+                                    tvResolveCount.setText("0");
+                                }else {
+                                    tvResolveCount.setText(response.getString("resolve"));
+                                }
                                 closeCount = Integer.parseInt(response.getString("Closed"));
+                                if (closeCount==0){
+                                    tvClosedCount.setText("0");
+                                }else {
+                                    tvClosedCount.setText(response.getString("Closed"));
+                                }
                                 notResolveCount = Integer.parseInt(response.getString("NotResolved"));
-
+                                if (notResolveCount==0){
+                                    tvNotResolvedCount.setText(getResources().getString(R.string.notResolved) + " : " +"0");
+                                }else {
+                                    tvNotResolvedCount.setText(getResources().getString(R.string.notResolved) + " : " +response.getString("NotResolved"));
+                                }
 
                             } catch (JSONException e) {
                                 e.printStackTrace();
                             }
                         }
-                        chardData();
 
+                        chardData();
                     } else {
-                        commonCode.AlertDialog_Pbtn(UserDashboardActivity.this, getResources().getString(R.string.notFound), getResources().getString(R.string.complaintsNotFound), getResources().getString(R.string.ok));
+                        commonCode.AlertDialog_Pbtn(UserDashboardActivity.this, getResources().getString(R.string.notFound), getResources().getString(R.string.requestNotFound), getResources().getString(R.string.ok));
                     }
+                    getMonthwiseCount();
+
                 }
             }, new Response.ErrorListener() {
                 @Override
@@ -472,6 +509,13 @@ public class UserDashboardActivity extends AppCompatActivity
         } else {
             commonCode.AlertDialog_Pbtn(UserDashboardActivity.this, getResources().getString(R.string.noInternetConnection), getResources().getString(R.string.plsConnectToInternet), getResources().getString(R.string.ok));
         }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        getComplaintCount();
     }
 
     private void getMonthwiseCount() {
@@ -534,7 +578,7 @@ public class UserDashboardActivity extends AppCompatActivity
                         }
                         barChart();
                     } else {
-                        commonCode.AlertDialog_Pbtn(UserDashboardActivity.this, getResources().getString(R.string.notFound), getResources().getString(R.string.complaintsNotFound), getResources().getString(R.string.ok));
+                        commonCode.AlertDialog_Pbtn(UserDashboardActivity.this, getResources().getString(R.string.notFound), getResources().getString(R.string.requestNotFound), getResources().getString(R.string.ok));
                     }
                 }
             }, new Response.ErrorListener() {

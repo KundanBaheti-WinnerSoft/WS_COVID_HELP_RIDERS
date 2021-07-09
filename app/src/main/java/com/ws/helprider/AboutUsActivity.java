@@ -44,7 +44,7 @@ public class AboutUsActivity extends AppCompatActivity {
         HyperLink.setText(Text);
 
 
-        tvDesc1.setText(Html.fromHtml(getResources().getString(R.string.app_name) +" for the complaints tracking and management."));
+        tvDesc1.setText(Html.fromHtml(getResources().getString(R.string.app_name) +" for helping covid affected peoples."));
 
        // tvDesc2.setText(Html.fromHtml(getResources().getString(R.string.app_name)+ " and the "+" " +getResources().getString(R.string.app_name)+" Logos are trademark of Winner Software Pvt.Ltd. All rights reserved."));
         rlRateUs = (RelativeLayout) findViewById(R.id.rl_rate_us);

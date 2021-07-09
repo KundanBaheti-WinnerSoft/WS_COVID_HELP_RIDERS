@@ -453,9 +453,6 @@ public class AddComplaintActivity extends AppCompatActivity {
                     } else if (!commonCode.isValidMobileNo(AddComplaintActivity.this, dr_mob_no)) {
                         edtDrMobNo.setError(getResources().getString(R.string.plsEnterDrMobNo));
                         edtDrMobNo.requestFocus();
-                    } else if (dr_mob_no.matches("^[789]\\d{9}$")) {
-                        edtDrMobNo.setError(getResources().getString(R.string.plsEnterValidDrMobNo));
-                        edtDrMobNo.requestFocus();
                     }  else if (hospital_name.isEmpty()) {
                         edtHospitalName.setError(getResources().getString(R.string.plsEnterHospitalName));
                         edtHospitalName.requestFocus();
@@ -471,10 +468,7 @@ public class AddComplaintActivity extends AppCompatActivity {
                     } else if (!commonCode.isValidMobileNo(AddComplaintActivity.this, contact_person_mob_no)) {
                         edtContactPersonMobNo.setError(getResources().getString(R.string.plsEnterContactPersonMobNo));
                         edtContactPersonMobNo.requestFocus();
-                    } else if (contact_person_mob_no.matches("^[789]\\d{9}$")) {
-                        edtContactPersonMobNo.setError(getResources().getString(R.string.plsEnterValidContactPersonMobNo));
-                        edtContactPersonMobNo.requestFocus();
-                    } else {
+                    }  else {
                         addComplaint();
                     }
                 } else if (complaintTypeId == 2) {
@@ -520,10 +514,7 @@ public class AddComplaintActivity extends AppCompatActivity {
                     } else if (!commonCode.isValidMobileNo(AddComplaintActivity.this, contact_person_mob_no)) {
                         edtContactPersonMobNo.setError(getResources().getString(R.string.plsEnterContactPersonMobNo));
                         edtContactPersonMobNo.requestFocus();
-                    }else if (contact_person_mob_no.matches("^[789]\\d{9}$")) {
-                        edtContactPersonMobNo.setError(getResources().getString(R.string.plsEnterValidContactPersonMobNo));
-                        edtContactPersonMobNo.requestFocus();
-                    }  else {
+                    } else {
                         addComplaint();
                     }
                 } else if (complaintTypeId == 4) {
@@ -578,17 +569,11 @@ public class AddComplaintActivity extends AppCompatActivity {
                     } else if (!commonCode.isValidMobileNo(AddComplaintActivity.this, dr_mob_no)) {
                         edtDrMobNo.setError(getResources().getString(R.string.plsEnterDrMobNo));
                         edtDrMobNo.requestFocus();
-                    }else if (dr_mob_no.matches("^[789]\\d{9}$")) {
-                        edtDrMobNo.setError(getResources().getString(R.string.plsEnterValidDrMobNo));
-                        edtDrMobNo.requestFocus();
-                    }  else if (!commonCode.isValidString(AddComplaintActivity.this, contact_person_name)) {
+                    } else if (!commonCode.isValidString(AddComplaintActivity.this, contact_person_name)) {
                         edtContactPersonName.setError(getResources().getString(R.string.plsEnterContactPersonName));
                         edtContactPersonName.requestFocus();
                     } else if (!commonCode.isValidMobileNo(AddComplaintActivity.this, contact_person_mob_no)) {
                         edtContactPersonMobNo.setError(getResources().getString(R.string.plsEnterContactPersonMobNo));
-                        edtContactPersonMobNo.requestFocus();
-                    }else if (contact_person_mob_no.matches("^[789]\\d{9}$")) {
-                        edtContactPersonMobNo.setError(getResources().getString(R.string.plsEnterValidContactPersonMobNo));
                         edtContactPersonMobNo.requestFocus();
                     }  else {
                         addComplaint();

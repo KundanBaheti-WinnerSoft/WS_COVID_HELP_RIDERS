@@ -16,6 +16,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Base64;
+import android.util.Patterns;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -51,6 +52,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.regex.Pattern;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -366,7 +368,7 @@ public class UpdateProfileActivity extends AppCompatActivity {
                     try {
                         String message = response.getString("message");
                         if (message.equals("Record Updated...!!!")) {
-                            Toast.makeText(getApplicationContext(), getResources().getString(R.string.updatedSuccess), Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(), getResources().getString(R.string.updatedSuccessfullyPleaseLoginAgain), Toast.LENGTH_LONG).show();
                             //getLoginDetails();
 //                            SharedPreferences.Editor editor = sharedPreferences.edit();
 //                            editor.putString("userId", userId);
@@ -386,14 +388,16 @@ public class UpdateProfileActivity extends AppCompatActivity {
 //                            editor.putString("area", area);
 //
 //                            editor.apply();
+                            SharedPreferences sp = getSharedPreferences("login", MODE_PRIVATE);
+                            sp.edit().clear().apply();
                             Intent intent = new Intent(UpdateProfileActivity.this, LoginActivity.class);
                             startActivity(intent);
                             finish();
-                            onBackPressed();
+//                            onBackPressed();
                         } else if (message.equals("MobNo Already exists")) {
                             mobNoAlreadyPopup();
                         } else if (message.equals("Sorry Email Already Exist...!!!")) {
-                            Toast.makeText(getApplicationContext(), getResources().getString(R.string.mobNoAlreadyExist), Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(), getResources().getString(R.string.emailIdAlreadyExist), Toast.LENGTH_LONG).show();
                             onBackPressed();
                         } else {
                             Toast.makeText(getApplicationContext(), getResources().getString(R.string.failedTryAgain), Toast.LENGTH_SHORT).show();
