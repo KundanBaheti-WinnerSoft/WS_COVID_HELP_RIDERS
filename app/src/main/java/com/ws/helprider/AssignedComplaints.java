@@ -306,7 +306,7 @@ public class AssignedComplaints extends AppCompatActivity implements ItemClickLi
                     status = "Open";
                     getAllOfVolByStatus();
                 } else {
-                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.complaintsNotFound), Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.requestNotFound), Toast.LENGTH_LONG).show();
                 }
             }
         });
@@ -317,7 +317,7 @@ public class AssignedComplaints extends AppCompatActivity implements ItemClickLi
                     status = "In Progress";
                     getAllOfVolByStatus();
                 } else {
-                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.complaintsNotFound), Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.requestNotFound), Toast.LENGTH_LONG).show();
                 }
             }
         });
@@ -328,7 +328,7 @@ public class AssignedComplaints extends AppCompatActivity implements ItemClickLi
                     status = "Resolved";
                     getAllOfVolByStatus();
                 } else {
-                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.complaintsNotFound), Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.requestNotFound), Toast.LENGTH_LONG).show();
                 }
             }
         });
@@ -339,7 +339,7 @@ public class AssignedComplaints extends AppCompatActivity implements ItemClickLi
                     status = "Closed";
                     getAllOfVolByStatus();
                 } else {
-                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.complaintsNotFound), Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.requestNotFound), Toast.LENGTH_LONG).show();
                 }
             }
         });
@@ -426,7 +426,7 @@ public class AssignedComplaints extends AppCompatActivity implements ItemClickLi
                         }
                     } else {
 
-                        commonCode.AlertDialog_Pbtn(AssignedComplaints.this, getResources().getString(R.string.notFound), getResources().getString(R.string.complaintsNotFound), getResources().getString(R.string.ok));
+                        commonCode.AlertDialog_Pbtn(AssignedComplaints.this, getResources().getString(R.string.notFound), getResources().getString(R.string.requestNotFound), getResources().getString(R.string.ok));
                     }
                     showdata(arraymap);
 
@@ -532,7 +532,7 @@ public class AssignedComplaints extends AppCompatActivity implements ItemClickLi
                         }
                     } else {
 
-                        commonCode.AlertDialog_Pbtn(AssignedComplaints.this, getResources().getString(R.string.notFound), getResources().getString(R.string.complaintsNotFound), getResources().getString(R.string.ok));
+                        commonCode.AlertDialog_Pbtn(AssignedComplaints.this, getResources().getString(R.string.notFound), getResources().getString(R.string.requestNotFound), getResources().getString(R.string.ok));
                     }
                     showdata(arraymap);
 
@@ -657,7 +657,7 @@ public class AssignedComplaints extends AppCompatActivity implements ItemClickLi
                         }
                     } else {
 
-                        commonCode.AlertDialog_Pbtn(AssignedComplaints.this, getResources().getString(R.string.notFound), getResources().getString(R.string.complaintsNotFound), getResources().getString(R.string.ok));
+                        commonCode.AlertDialog_Pbtn(AssignedComplaints.this, getResources().getString(R.string.notFound), getResources().getString(R.string.requestNotFound), getResources().getString(R.string.ok));
                     }
                     showdata(arraymap);
 
@@ -909,7 +909,7 @@ public class AssignedComplaints extends AppCompatActivity implements ItemClickLi
                             }
                         }
                     } else {
-                        commonCode.AlertDialog_Pbtn(AssignedComplaints.this, getResources().getString(R.string.notFound), getResources().getString(R.string.complaintsNotFound), getResources().getString(R.string.ok));
+                        commonCode.AlertDialog_Pbtn(AssignedComplaints.this, getResources().getString(R.string.notFound), getResources().getString(R.string.requestNotFound), getResources().getString(R.string.ok));
                     }
                     getAllOfVol();
                 }

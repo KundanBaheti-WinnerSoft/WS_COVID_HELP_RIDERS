@@ -384,7 +384,7 @@ public class RegistrationActivity extends AppCompatActivity {
                             }
                         });
                     } else {
-                        commonCode.AlertDialog_Pbtn(RegistrationActivity.this, getResources().getString(R.string.notFound), getResources().getString(R.string.complaintsNotFound), getResources().getString(R.string.ok));
+                        commonCode.AlertDialog_Pbtn(RegistrationActivity.this, getResources().getString(R.string.notFound), getResources().getString(R.string.statesNotFound), getResources().getString(R.string.ok));
                     }
                 }
             }, new Response.ErrorListener() {
@@ -469,7 +469,7 @@ public class RegistrationActivity extends AppCompatActivity {
                             }
                         });
                     } else {
-                        commonCode.AlertDialog_Pbtn(RegistrationActivity.this, getResources().getString(R.string.notFound), getResources().getString(R.string.complaintsNotFound), getResources().getString(R.string.ok));
+                        commonCode.AlertDialog_Pbtn(RegistrationActivity.this, getResources().getString(R.string.notFound), getResources().getString(R.string.districtNotFound), getResources().getString(R.string.ok));
                     }
                 }
             }, new Response.ErrorListener() {

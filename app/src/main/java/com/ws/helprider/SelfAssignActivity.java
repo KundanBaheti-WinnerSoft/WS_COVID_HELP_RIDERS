@@ -881,7 +881,7 @@ public class SelfAssignActivity extends AppCompatActivity implements ItemClickLi
                             }
                         }
                     } else {
-                        commonCode.AlertDialog_Pbtn(SelfAssignActivity.this, getResources().getString(R.string.notFound), getResources().getString(R.string.complaintsNotFound), getResources().getString(R.string.ok));
+                        commonCode.AlertDialog_Pbtn(SelfAssignActivity.this, getResources().getString(R.string.notFound), getResources().getString(R.string.requestNotFound), getResources().getString(R.string.ok));
                     }
                 }
             }, new Response.ErrorListener() {

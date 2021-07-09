@@ -307,7 +307,7 @@ public class ProfilesDetailsActivity extends AppCompatActivity {
                             }
                         }
                     } else {
-                        commonCode.AlertDialog_Pbtn(ProfilesDetailsActivity.this, getResources().getString(R.string.notFound), getResources().getString(R.string.complaintsNotFound), getResources().getString(R.string.ok));
+                        commonCode.AlertDialog_Pbtn(ProfilesDetailsActivity.this, getResources().getString(R.string.notFound), getResources().getString(R.string.requestNotFound), getResources().getString(R.string.ok));
                     }
                 }
             }, new Response.ErrorListener() {

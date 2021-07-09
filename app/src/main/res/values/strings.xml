@@ -477,6 +477,8 @@ With automated workflow request will route through all the stakeholders for imme
     <string name="plsEnterValidContactPersonMobNo">Please enter valid contact person mobile number</string>
     <string name="plsEnterValidMobNo">Please enter valid mobile number</string>
     <string name="updatedSuccessfullyPleaseLoginAgain">Profile Updated Successfully. Please login again</string>
+    <string name="statesNotFound">States not found</string>
+    <string name="districtNotFound">District Not Found</string>
 
 
 </resources>

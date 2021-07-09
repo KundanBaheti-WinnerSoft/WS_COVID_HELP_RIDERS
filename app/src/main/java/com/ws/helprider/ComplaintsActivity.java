@@ -579,7 +579,7 @@ public class ComplaintsActivity extends AppCompatActivity implements ItemClickLi
                             }
                         }
                     } else {
-                        commonCode.AlertDialog_Pbtn(ComplaintsActivity.this, getResources().getString(R.string.notFound), getResources().getString(R.string.complaintsNotFound), getResources().getString(R.string.ok));
+                        commonCode.AlertDialog_Pbtn(ComplaintsActivity.this, getResources().getString(R.string.notFound), getResources().getString(R.string.requestNotFound), getResources().getString(R.string.ok));
                     }
                     showdata(arraymap);
                 }
@@ -696,7 +696,7 @@ public class ComplaintsActivity extends AppCompatActivity implements ItemClickLi
                             }
                         }
                     } else {
-                        commonCode.AlertDialog_Pbtn(ComplaintsActivity.this, getResources().getString(R.string.notFound), getResources().getString(R.string.complaintsNotFound), getResources().getString(R.string.ok));
+                        commonCode.AlertDialog_Pbtn(ComplaintsActivity.this, getResources().getString(R.string.notFound), getResources().getString(R.string.requestNotFound), getResources().getString(R.string.ok));
                     }
                     showdata(arraymap);
                 }
