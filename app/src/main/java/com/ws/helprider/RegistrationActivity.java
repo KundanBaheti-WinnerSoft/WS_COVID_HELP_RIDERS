@@ -534,6 +534,9 @@ public class RegistrationActivity extends AppCompatActivity {
         } else if (!commonCode.isValidMobileNo(RegistrationActivity.this, mobileno)) {
             edtMob.setError(getResources().getString(R.string.plsEnterMobNo));
             edtMob.requestFocus();
+        } else if (mobileno.matches("^[789]\\d{9}$")) {
+            edtMob.setError(getResources().getString(R.string.plsEnterValidMobNo));
+            edtMob.requestFocus();
         } else if (!edtEmailid.getText().toString().trim().matches("^[A-Za-z0-9+_.-]+@(.+)$")) {
             edtEmailid.setError(getResources().getString(R.string.validMailid));
             edtEmailid.requestFocus();

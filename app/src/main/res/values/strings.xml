@@ -472,6 +472,10 @@ With automated workflow grievance will route through all the stakeholders for im
     <string name="plsEnterValidO2RoomLevel">Please enter valid o2 room level</string>
     <string name="plsEnterValidO2WithSupport">Please enter valid O2 with support</string>
     <string name="plsEnterValidPatientName">Please enter valid patient name</string>
+    <string name="serviceStatus">Service Status</string>
+    <string name="plsEnterValidDrMobNo">Please enter valid doctor\'s mobile number</string>
+    <string name="plsEnterValidContactPersonMobNo">Please enter valid contact person mobile number</string>
+    <string name="plsEnterValidMobNo">Please enter valid mobile number</string>
 
 
 </resources>

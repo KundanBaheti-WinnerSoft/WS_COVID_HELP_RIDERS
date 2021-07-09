@@ -51,7 +51,6 @@ public class GlidAdapter extends RecyclerView.Adapter<GlidAdapter.MyViewHolder> 
 
         Glide.with(mContext).load(image.getMedium())
                 .thumbnail(0.5f)
-                .crossFade()
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .into(holder.thumbnail);
     }

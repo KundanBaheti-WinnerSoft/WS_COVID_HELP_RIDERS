@@ -1007,7 +1007,7 @@ public class MyComplaintsActivity extends AppCompatActivity implements ItemClick
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String name = parent.getItemAtPosition(position).toString();
-                if (name.equals(getResources().getString(R.string.selCompStatus))) {
+                if (name.equals(getResources().getString(R.string.selServiceStatus))) {
                     selectedStatus = "Select Service Status";
                 } else if (name.equals(getResources().getString(R.string.closed))) {
                     selectedStatus = "Closed";
@@ -1033,7 +1033,7 @@ public class MyComplaintsActivity extends AppCompatActivity implements ItemClick
 
         tvTitle = (TextView) myDialog.findViewById(R.id.tv_title);
         //  tvTitle.setText(getResources().getString(R.string.changeStatusQue) + " " + complaintStatus + " ? ");
-        tvTitle.setText(getResources().getString(R.string.complaintStatus) + " : " + complaintStatus);
+        tvTitle.setText(getResources().getString(R.string.serviceStatus) + " : " + complaintStatus);
 
         final EditText edtAddcomment = (EditText) myDialog.findViewById(R.id.edt_addComment);
 
@@ -1054,7 +1054,7 @@ public class MyComplaintsActivity extends AppCompatActivity implements ItemClick
                 tComment = edtAddcomment.getText().toString();
 
                 if (selectedStatus.equals("Select Service Status")) {
-                    spnCompStatus.setError(getResources().getString(R.string.pleaSelCompStatus));
+                    spnCompStatus.setError(getResources().getString(R.string.selServiceStatus));
                     spnCompStatus.requestFocus();
                 } else if (!commonCode.isValidString(MyComplaintsActivity.this, tComment)) {
                     edtAddcomment.setError(getResources().getString(R.string.pleaseAddComment));

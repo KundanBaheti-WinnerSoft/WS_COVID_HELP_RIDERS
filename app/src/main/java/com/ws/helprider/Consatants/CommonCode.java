@@ -113,7 +113,7 @@ public class CommonCode {
 
     // Simple MobileNo Validation
     public boolean isValidMobileNo(Context ctx, String str) {
-        if (str != null && str.length() == 10 && !str.equals("") && !str.equals("null")) {
+        if (str != null && str.length() == 10 && !str.equals("") && !str.equals("null") ) {
             return true;
         }
         return false;
