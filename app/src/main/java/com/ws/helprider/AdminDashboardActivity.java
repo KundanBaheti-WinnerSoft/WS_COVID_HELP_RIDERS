@@ -145,8 +145,8 @@ public class AdminDashboardActivity extends AppCompatActivity
         View header = navigationView.getHeaderView(0);
 
         ivProfilePic = header.findViewById(R.id.iv_drawer);
-        imageUrl = urllink.downloadProfilePic + imageName; // profileImageUrl
-        Picasso.with(getApplicationContext()).load(imageUrl).into(ivProfilePic);
+//        imageUrl = urllink.downloadProfilePic + imageName; // profileImageUrl
+//        Picasso.with(getApplicationContext()).load(imageUrl).into(ivProfilePic);
         if (ivProfilePic.getDrawable() == null) {
             ivProfilePic.setImageResource(R.mipmap.avatar);
         }
@@ -694,7 +694,7 @@ public class AdminDashboardActivity extends AppCompatActivity
                     } else {
                         commonCode.AlertDialog_Pbtn(AdminDashboardActivity.this, getResources().getString(R.string.notFound), getResources().getString(R.string.requestNotFound), getResources().getString(R.string.ok));
                     }
-                    getMonthwiseCount();
+                    //getMonthwiseCount();
                 }
             }, new Response.ErrorListener() {
                 @Override
@@ -729,6 +729,11 @@ public class AdminDashboardActivity extends AppCompatActivity
         }
     }
 
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        getMonthwiseCount();
+    }
 
     @Override
     public void onBackPressed() {

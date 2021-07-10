@@ -134,8 +134,8 @@ public class UserDashboardActivity extends AppCompatActivity
 
         View header = navigationView.getHeaderView(0);
         ivProfilePic = header.findViewById(R.id.iv_drawer);
-        imageUrl = urllink.downloadProfilePic + imageName; // profileImageUrl
-        Picasso.with(getApplicationContext()).load(imageUrl).into(ivProfilePic);
+//        imageUrl = urllink.downloadProfilePic + imageName; // profileImageUrl
+//        Picasso.with(getApplicationContext()).load(imageUrl).into(ivProfilePic);
         if (ivProfilePic.getDrawable() == null) {
             ivProfilePic.setImageResource(R.mipmap.avatar);
         }
@@ -288,26 +288,27 @@ public class UserDashboardActivity extends AppCompatActivity
         myDialog.show();
     }
 
-    @Override
-    protected void onStart() {
-        super.onStart();
-        getComplaintCount();
+//    @Override
+//    protected void onStart() {
+//        super.onStart();
+//
+//
+//
+//        imageName = sharedPreferences.getString("image", "");
+//
+//        imageUrl = urllink.downloadProfilePic + imageName; // profileImageUrl
+//        Picasso.with(getApplicationContext()).load(imageUrl).into(ivProfilePic);
+//        if (ivProfilePic.getDrawable() == null) {
+//            ivProfilePic.setImageResource(R.mipmap.avatar);
+//        }
+//        ivProfilePic.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                viewProfilePicPopup(v);
+//            }
+//        });
+//    }
 
-
-        imageName = sharedPreferences.getString("image", "");
-
-        imageUrl = urllink.downloadProfilePic + imageName; // profileImageUrl
-        Picasso.with(getApplicationContext()).load(imageUrl).into(ivProfilePic);
-        if (ivProfilePic.getDrawable() == null) {
-            ivProfilePic.setImageResource(R.mipmap.avatar);
-        }
-        ivProfilePic.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                viewProfilePicPopup(v);
-            }
-        });
-    }
 
     public void barChart() {
         ArrayList<BarEntry> entries = new ArrayList<>();
@@ -472,7 +473,7 @@ public class UserDashboardActivity extends AppCompatActivity
                     } else {
                         commonCode.AlertDialog_Pbtn(UserDashboardActivity.this, getResources().getString(R.string.notFound), getResources().getString(R.string.requestNotFound), getResources().getString(R.string.ok));
                     }
-                    getMonthwiseCount();
+                    //getMonthwiseCount();
 
                 }
             }, new Response.ErrorListener() {
@@ -516,6 +517,12 @@ public class UserDashboardActivity extends AppCompatActivity
         super.onResume();
 
         getComplaintCount();
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        getMonthwiseCount();
     }
 
     private void getMonthwiseCount() {

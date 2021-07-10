@@ -132,8 +132,8 @@ public class SADashboardActivity extends AppCompatActivity
 
         View header = navigationView.getHeaderView(0);
         ivProfilePic = header.findViewById(R.id.iv_drawer);
-        imageUrl = urllink.downloadProfilePic + imageName; // profileImageUrl
-        Picasso.with(getApplicationContext()).load(imageUrl).into(ivProfilePic);
+        //imageUrl = urllink.downloadProfilePic + imageName; // profileImageUrl
+        //Picasso.with(getApplicationContext()).load(imageUrl).into(ivProfilePic);
 
 
 //        if (ivProfilePic.getDrawable() == null) {
@@ -525,7 +525,7 @@ public class SADashboardActivity extends AppCompatActivity
 //                                tvAdminCount.setText(response.getString("TotalAdmin"));
                               int  totalAdminCount = Integer.parseInt(response.getString("TotalAdmin"));
                                 if (totalAdminCount==0){
-                                    tvAdminCount.setText(0);
+                                    tvAdminCount.setText("0");
                                 }else {
                                     tvAdminCount.setText(response.getString("TotalAdmin"));
                                 }
@@ -540,7 +540,7 @@ public class SADashboardActivity extends AppCompatActivity
 
                                 totalCount = Integer.parseInt(response.getString("Total"));
                                 if (totalCount==0){
-                                    tvTotalCount.setText(getResources().getString(R.string.totalRequests) + " : " +0);
+                                    tvTotalCount.setText(getResources().getString(R.string.totalRequests) + " : " +"0");
                                     tvCompCount.setText("0");
                                 }else {
                                     tvTotalCount.setText(getResources().getString(R.string.totalRequests) + " : " +response.getString("Total"));
@@ -584,7 +584,7 @@ public class SADashboardActivity extends AppCompatActivity
                     } else {
                         commonCode.AlertDialog_Pbtn(SADashboardActivity.this, getResources().getString(R.string.notFound), getResources().getString(R.string.requestNotFound), getResources().getString(R.string.ok));
                     }
-                    getMonthwiseCount();
+                    //getMonthwiseCount();
                 }
             }, new Response.ErrorListener() {
                 @Override
@@ -620,6 +620,12 @@ public class SADashboardActivity extends AppCompatActivity
         } else {
             commonCode.AlertDialog_Pbtn(SADashboardActivity.this, getResources().getString(R.string.noInternetConnection), getResources().getString(R.string.plsConnectToInternet), getResources().getString(R.string.ok));
         }
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        getMonthwiseCount();
     }
 
     @Override
